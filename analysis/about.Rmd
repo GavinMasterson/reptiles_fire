@@ -8,5 +8,5 @@ editor_options:
 ---
 
 During 2005/6, I surveyed reptiles in Suikerbosrand Nature Reserve and investigated their response to localised site disturbance.
-This analysis serves as the reproducible foundation of the analysis for the published paper.
-All analysis was conducted by [Gavin Masterson](https://gavinmasterson.netlify.app/).
+This analysis serves as the reproducible analysis used for the published paper.
+All code for the analyses shown here was written by [Gavin Masterson](https://gavinmasterson.netlify.app/).

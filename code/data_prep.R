@@ -32,7 +32,7 @@ skimr::skim(data)
 # create pivot table of species per day, per trap array and phase
 
 sitephase_summary <- data %>%
-                      group_by(array, species, phase, date) %>%
+                      group_by(trap_site, species, phase, date) %>%
                       summarise(count_by_array = n())
 
 
