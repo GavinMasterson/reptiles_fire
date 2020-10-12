@@ -1,0 +1,32 @@
+---
+title: "Having some fun exploring"
+author: "Gavin Masterson"
+date: "2020-10-12"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup}
+library(tidyverse)
+```
+
+## Introduction
+
+The raw data from my survey have been captured, cleaned and are now ready to be viewed for different insights.
+As the survey was quite complex from a methodological and practical perspective, I will now produce summaries and visualisations of the relevant survey components and variables.
+These will help me in determining any issues that may influence my desired analysis path. 
+(@) The total number of species detected during the survey  
+Suikerbosrand Nature Reserve has been surveyed for reptiles several times since its proclamation in 1973 e.g. Jacobsen *et al.* (1986) and Masterson *et al.* (2008).
+Determining the total number of species detected during this survey is an important first step in gauging the general success of the survey.  
+```{r total species, include = TRUE}
+data %>% 
+  summarise(total_species = n_distinct(species))
+```
+(@) The total number of species detected at each site  
+
+```{r species per site}
+sitephase_summary <- data %>%
+                      group_by(trap_site, species, phase) %>%
+                      summarise(count_per_trap_site = n())
+```
