@@ -29,10 +29,10 @@ skimr::skim(data)
 #####################################################################################################
 # Split this to take these tables to the relevant Rmarkdown documents
 # create pivot tables for later analysis
-# create pivot table of species per day, per trap array and phase
 
+# create pivot table of species per day, per trap array and phase
 sitephase_summary <- data %>%
                       group_by(trap_site, species, phase, date) %>%
-                      summarise(count_by_array = n())
+                      summarise(count_per_day = n())
 
 
