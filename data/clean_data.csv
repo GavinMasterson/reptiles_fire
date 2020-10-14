@@ -1,0 +1,581 @@
+phase,date,species,alive,block,lat,long,trap_site,treatment,arm,trap_type,trap_position,fence_colour,recapture,site_of_first_capture,size_class,truncated_tail
+pre-treatment,2005-08-29,Trachylepis capensis,alive,1,-26.500616666666666,28.288283333333332,13A,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-08-29,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,1,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-08-29,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,2,funnel,3,black,no,NA,adult,yes
+pre-treatment,2005-09-01,Trachylepis capensis,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,1,funnel,8,NA,no,NA,juvenile,NA
+pre-treatment,2005-09-03,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,2,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-09-03,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,1,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-09-03,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-09-03,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,4,funnel,7,blue,no,NA,adult,NA
+pre-treatment,2005-09-03,Trachylepis capensis,alive,3,-26.542866666666665,28.2101,Z1,NA,0,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-09-05,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,0,bucket,NA,NA,yes,D1,juvenile,NA
+pre-treatment,2005-09-05,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,2,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-09-05,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,4,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-09-05,Trachylepis capensis,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-09-05,Trachylepis varia,alive,2,-26.524166666666666,28.2735,D1,NA,3,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-09-06,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,3,funnel,6,blue,no,NA,adult,NA
+pre-treatment,2005-09-08,Lycophidion capense,dead,3,-26.542916666666667,28.227166666666665,Z3,NA,1,funnel,1,black,NA,NA,adult,NA
+pre-treatment,2005-09-08,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,1,bucket,NA,NA,no,NA,juvenile,yes
+pre-treatment,2005-09-08,Trachylepis varia,alive,1,-26.504683333333332,28.2903,13C,NA,2,funnel,3,blue,no,NA,adult,NA
+pre-treatment,2005-09-08,Trachylepis varia,alive,1,-26.504683333333332,28.2903,13C,NA,3,funnel,6,blue,no,NA,adult,NA
+pre-treatment,2005-09-09,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,2,funnel,4,blue,no,NA,adult,NA
+pre-treatment,2005-09-11,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,3,bucket,NA,NA,no,NA,juvenile,yes
+pre-treatment,2005-09-11,Trachylepis capensis,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,2,funnel,3,blue,no,NA,juvenile,NA
+pre-treatment,2005-09-13,Panaspis wahlbergii,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-09-13,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,3,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-09-14,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,4,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-09-14,Trachylepis capensis,alive,1,-26.4976,28.2914,13B,NA,2,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-09-14,Trachylepis capensis,alive,3,-26.542866666666665,28.2101,Z1,NA,4,funnel,8,black,no,NA,juvenile,NA
+pre-treatment,2005-09-16,Trachylepis capensis,alive,3,-26.542866666666665,28.2101,Z1,NA,4,funnel,8,black,no,NA,adult,yes
+pre-treatment,2005-09-19,Trachylepis capensis,alive,1,-26.500616666666666,28.288283333333332,13A,NA,1,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-09-19,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,1,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-09-20,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-09-21,Psammophis crucifer,alive,1,-26.504683333333332,28.2903,13C,NA,4,funnel,8,blue,NA,NA,adult,NA
+pre-treatment,2005-09-22,Gerrhosaurus flavigularis,alive,2,-26.52485,28.2665,D3,NA,4,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-09-23,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-09-24,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,1,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-09-26,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-09-26,Gerrhosaurus flavigularis,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-09-26,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,NA,2,funnel,4,black,no,NA,adult,NA
+pre-treatment,2005-09-27,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,0,bucket,NA,NA,yes,D1,adult,NA
+pre-treatment,2005-09-29,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,NA,2,bucket,NA,NA,yes,Z1,juvenile,NA
+pre-treatment,2005-09-29,Psammophis crucifer,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,4,funnel,8,blue,NA,NA,juvenile,NA
+pre-treatment,2005-09-30,Pseudaspis cana,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,2,funnel,3,blue,NA,NA,juvenile,NA
+pre-treatment,2005-10-01,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,0,bucket,NA,NA,yes,D1,adult,NA
+pre-treatment,2005-10-01,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,4,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-10-01,Gerrhosaurus flavigularis,alive,2,-26.52485,28.2665,D3,NA,1,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-01,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,4,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-02,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,0,bucket,NA,NA,yes,D1,adult,NA
+pre-treatment,2005-10-03,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,3,bucket,NA,NA,yes,D1,adult,NA
+pre-treatment,2005-10-03,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,2,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-03,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-03,Leptotyphlops incognitus,alive,4,-26.547416666666667,28.207066666666666,6C,NA,0,bucket,NA,NA,NA,NA,juvenile,NA
+pre-treatment,2005-10-03,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-03,Trachylepis capensis,alive,1,-26.4976,28.2914,13B,NA,1,bucket,NA,NA,yes,13B,adult,yes
+pre-treatment,2005-10-04,Agama a. distanti,alive,1,-26.500616666666666,28.288283333333332,13A,NA,2,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-10-04,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,0,bucket,NA,NA,yes,D1,adult,NA
+pre-treatment,2005-10-04,Trachylepis varia,alive,2,-26.524166666666666,28.2735,D1,NA,2,funnel,3,blue,no,NA,adult,NA
+pre-treatment,2005-10-04,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,0,bucket,NA,NA,yes,D3,adult,NA
+pre-treatment,2005-10-04,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-04,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,2,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-05,Trachylepis capensis,alive,1,-26.500616666666666,28.288283333333332,13A,NA,4,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-10-05,Leptotyphlops incognitus,alive,2,-26.52391666666667,28.26931666666667,D2,NA,0,bucket,NA,NA,NA,NA,adult,NA
+pre-treatment,2005-10-05,Gerrhosaurus flavigularis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,3,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-05,Leptotyphlops incognitus,alive,2,-26.52485,28.2665,D3,NA,1,bucket,NA,NA,NA,NA,juvenile,NA
+pre-treatment,2005-10-05,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,2,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-10-05,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,4,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-05,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,NA,4,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-06,Leptotyphlops incognitus,alive,2,-26.52391666666667,28.26931666666667,D2,NA,1,bucket,NA,NA,NA,NA,adult,NA
+pre-treatment,2005-10-06,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,3,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-07,Lycophidion capense,alive,1,-26.504683333333332,28.2903,13C,NA,4,funnel,8,blue,NA,NA,juvenile,NA
+pre-treatment,2005-10-07,Leptotyphlops incognitus,alive,2,-26.52391666666667,28.26931666666667,D2,NA,4,bucket,NA,NA,NA,NA,adult,NA
+pre-treatment,2005-10-10,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-10-10,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,0,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-10-10,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,4,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-10-10,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,2,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-10,Trachylepis capensis,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,1,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-10,Gerrhosaurus flavigularis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,3,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-10,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,0,bucket,NA,NA,yes,D1,adult,NA
+pre-treatment,2005-10-10,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,0,bucket,NA,NA,yes,D1,adult,NA
+pre-treatment,2005-10-10,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-10,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,1,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-10,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,4,bucket,NA,NA,yes,13C,juvenile,NA
+pre-treatment,2005-10-10,Trachylepis capensis,alive,1,-26.500616666666666,28.288283333333332,13A,NA,4,funnel,7,black,no,NA,juvenile,NA
+pre-treatment,2005-10-11,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,1,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-11,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,1,bucket,NA,NA,yes,13C,adult,NA
+pre-treatment,2005-10-11,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,2,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-11,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,2,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-10-11,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-11,Leptotyphlops incognitus,alive,4,-26.548866666666665,28.203833333333332,6B,NA,4,bucket,NA,NA,NA,NA,adult,NA
+pre-treatment,2005-10-12,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,2,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-12,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,0,bucket,NA,NA,yes,D1,adult,NA
+pre-treatment,2005-10-12,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,2,bucket,NA,NA,yes,D1,adult,NA
+pre-treatment,2005-10-12,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,4,bucket,NA,NA,yes,D1,adult,NA
+pre-treatment,2005-10-12,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,1,bucket,NA,NA,yes,13C,adult,NA
+pre-treatment,2005-10-13,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,0,bucket,NA,NA,yes,D1,adult,NA
+pre-treatment,2005-10-13,Gerrhosaurus flavigularis,alive,2,-26.52485,28.2665,D3,NA,1,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-13,Trachylepis capensis,dead,4,-26.548866666666665,28.203833333333332,6B,NA,3,funnel,5,black,no,NA,adult,NA
+pre-treatment,2005-10-14,Trachylepis capensis,alive,1,-26.500616666666666,28.288283333333332,13A,NA,0,bucket,NA,NA,yes,13A,juvenile,yes
+pre-treatment,2005-10-14,Agama a. distanti,alive,1,-26.500616666666666,28.288283333333332,13A,NA,1,bucket,NA,NA,yes,13A,juvenile,NA
+pre-treatment,2005-10-14,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,4,bucket,NA,NA,yes,13C,adult,NA
+pre-treatment,2005-10-14,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,3,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-17,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,1,funnel,2,blue,yes,13C,adult,NA
+pre-treatment,2005-10-17,Agama a. atra,alive,1,-26.504683333333332,28.2903,13C,NA,4,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-10-17,Psammophis crucifer,alive,2,-26.524166666666666,28.2735,D1,NA,1,funnel,2,black,NA,NA,adult,NA
+pre-treatment,2005-10-17,Agama a. distanti,dead,2,-26.524166666666666,28.2735,D1,NA,1,funnel,2,black,yes,D1,adult,NA
+pre-treatment,2005-10-17,Gerrhosaurus flavigularis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,4,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-10-17,Gerrhosaurus flavigularis,alive,2,-26.52485,28.2665,D3,NA,1,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-10-17,Gerrhosaurus flavigularis,alive,2,-26.52485,28.2665,D3,NA,1,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-17,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,3,funnel,5,black,no,NA,adult,NA
+pre-treatment,2005-10-17,Trachylepis capensis,alive,4,-26.542333333333332,28.2002,6A,NA,2,bucket,NA,NA,no,NA,juvenile,yes
+pre-treatment,2005-10-17,Trachylepis varia,alive,4,-26.542333333333332,28.2002,6A,NA,2,bucket,NA,NA,no,NA,juvenile,yes
+pre-treatment,2005-10-17,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,NA,2,funnel,3,blue,no,NA,juvenile,yes
+pre-treatment,2005-10-18,Trachylepis capensis,alive,1,-26.4976,28.2914,13B,NA,1,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-10-18,Psammophylax rhombeatus,alive,1,-26.504683333333332,28.2903,13C,NA,1,funnel,2,blue,NA,NA,adult,NA
+pre-treatment,2005-10-18,Hemachatus haemachatus,alive,2,-26.524166666666666,28.2735,D1,NA,0,bucket,NA,NA,NA,NA,juvenile,NA
+pre-treatment,2005-10-18,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,NA,3,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-10-18,Lamprophis aurora,alive,4,-26.547416666666667,28.207066666666666,6C,NA,2,funnel,4,black,NA,NA,adult,NA
+pre-treatment,2005-10-19,Trachylepis varia,alive,4,-26.547416666666667,28.207066666666666,6C,NA,2,funnel,3,blue,no,NA,adult,NA
+pre-treatment,2005-10-20,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,3,bucket,NA,NA,no,NA,juvenile,yes
+pre-treatment,2005-10-20,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,2,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-10-21,Psammophis crucifer,alive,1,-26.4976,28.2914,13B,NA,1,funnel,2,black,NA,NA,adult,NA
+pre-treatment,2005-10-21,Psammophis crucifer,alive,1,-26.4976,28.2914,13B,NA,1,funnel,2,black,NA,NA,adult,NA
+pre-treatment,2005-10-21,Lamprophis capensis,alive,1,-26.504683333333332,28.2903,13C,NA,0,bucket,NA,NA,NA,NA,juvenile,NA
+pre-treatment,2005-10-21,Agama a. distanti,alive,2,-26.52485,28.2665,D3,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-21,Gerrhosaurus flavigularis,alive,2,-26.52485,28.2665,D3,NA,1,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-10-22,Hemachatus haemachatus,dead,1,-26.4976,28.2914,13B,NA,2,funnel,3,black,NA,NA,juvenile,NA
+pre-treatment,2005-10-22,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,2,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-10-22,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,1,funnel,2,blue,no,NA,juvenile,NA
+pre-treatment,2005-10-23,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,4,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-23,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,NA,4,funnel,8,black,yes,Z1,adult,yes
+pre-treatment,2005-10-23,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,3,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-25,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,4,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-25,Gerrhosaurus flavigularis,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,0,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-10-25,Gerrhosaurus flavigularis,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,3,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-10-25,Psammophis crucifer,alive,4,-26.548866666666665,28.203833333333332,6B,NA,3,funnel,5,black,NA,NA,adult,NA
+pre-treatment,2005-10-26,Agama a. distanti,alive,1,-26.500616666666666,28.288283333333332,13A,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-27,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-10-28,Gerrhosaurus flavigularis,alive,1,-26.4976,28.2914,13B,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-28,Trachylepis capensis,alive,1,-26.4976,28.2914,13B,NA,4,funnel,7,black,yes,13B,adult,NA
+pre-treatment,2005-10-28,Gerrhosaurus flavigularis,dead,2,-26.52485,28.2665,D3,NA,2,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-10-28,Gerrhosaurus flavigularis,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,3,funnel,5,blue,no,NA,juvenile,NA
+pre-treatment,2005-10-28,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,3,funnel,6,blue,no,NA,juvenile,NA
+pre-treatment,2005-10-28,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,4,funnel,8,blue,no,NA,adult,NA
+pre-treatment,2005-10-29,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,NA,1,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-31,Gerrhosaurus flavigularis,alive,2,-26.52485,28.2665,D3,NA,3,bucket,NA,NA,yes,D3,adult,NA
+pre-treatment,2005-10-31,Gerrhosaurus flavigularis,alive,2,-26.52485,28.2665,D3,NA,3,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-10-31,Agama a. distanti,alive,2,-26.52485,28.2665,D3,NA,3,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-10-31,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-01,Gerrhosaurus flavigularis,alive,2,-26.52485,28.2665,D3,NA,4,bucket,NA,NA,yes,D3,adult,NA
+pre-treatment,2005-11-01,Gerrhosaurus flavigularis,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,3,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-02,Gerrhosaurus flavigularis,alive,2,-26.52485,28.2665,D3,NA,0,bucket,NA,NA,yes,D3,adult,NA
+pre-treatment,2005-11-02,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-11-03,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,4,bucket,NA,NA,yes,D3,adult,NA
+pre-treatment,2005-11-03,Gerrhosaurus flavigularis,dead,4,-26.547416666666667,28.207066666666666,6C,NA,2,fence,NA,NA,no,NA,adult,NA
+pre-treatment,2005-11-04,Gerrhosaurus flavigularis,alive,1,-26.4976,28.2914,13B,NA,1,funnel,2,black,no,NA,adult,NA
+pre-treatment,2005-11-04,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,2,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-11-04,Trachylepis capensis,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,1,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-04,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-11-04,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,0,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-11-07,Trachylepis capensis,dead,2,-26.52391666666667,28.26931666666667,D2,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-11-07,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,NA,3,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-07,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,2,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-08,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,1,funnel,2,blue,yes,13C,adult,NA
+pre-treatment,2005-11-08,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,NA,1,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-10,Leptotyphlops incognitus,alive,2,-26.52391666666667,28.26931666666667,D2,NA,0,bucket,NA,NA,NA,NA,adult,NA
+pre-treatment,2005-11-10,Pseudaspis cana,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,2,funnel,3,blue,NA,NA,juvenile,NA
+pre-treatment,2005-11-10,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,NA,2,funnel,4,black,yes,Z1,adult,NA
+pre-treatment,2005-11-10,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,3,funnel,5,black,yes,6B,adult,yes
+pre-treatment,2005-11-14,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,2,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-11-14,Trachylepis varia,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,3,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-14,Trachylepis varia,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,2,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-15,Trachylepis capensis,alive,1,-26.504683333333332,28.2903,13C,NA,1,funnel,2,blue,no,NA,adult,NA
+pre-treatment,2005-11-17,Trachylepis capensis,alive,1,-26.504683333333332,28.2903,13C,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-17,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,1,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-11-17,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,3,bucket,NA,NA,yes,D1,adult,NA
+pre-treatment,2005-11-17,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,3,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-11-17,Trachylepis capensis,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,2,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-11-17,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,2,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-11-17,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,0,bucket,NA,NA,no,NA,juvenile,yes
+pre-treatment,2005-11-17,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,4,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-17,Trachylepis capensis,alive,4,-26.542333333333332,28.2002,6A,NA,0,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-11-18,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,1,bucket,NA,NA,yes,D1,adult,yes
+pre-treatment,2005-11-18,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,1,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-11-18,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,2,bucket,NA,NA,yes,D1,adult,NA
+pre-treatment,2005-11-18,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,3,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-21,Trachylepis capensis,dead,1,-26.500616666666666,28.288283333333332,13A,NA,0,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-11-21,Trachylepis capensis,alive,1,-26.4976,28.2914,13B,NA,2,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-11-21,Trachylepis capensis,alive,1,-26.4976,28.2914,13B,NA,2,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-11-22,Gerrhosaurus flavigularis,dead,3,-26.543866666666666,28.215683333333335,Z2,NA,2,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-22,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-22,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-22,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-22,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-22,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-11-22,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,3,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-11-22,Gerrhosaurus flavigularis,dead,3,-26.542866666666665,28.2101,Z1,NA,0,bucket,NA,NA,yes,Z1,juvenile,NA
+pre-treatment,2005-11-22,Trachylepis capensis,dead,4,-26.542333333333332,28.2002,6A,NA,1,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-11-22,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,1,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-11-22,Gerrhosaurus flavigularis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,4,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-11-24,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,NA,1,funnel,2,black,no,NA,adult,NA
+pre-treatment,2005-11-25,Trachylepis capensis,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,4,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-11-25,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,3,bucket,NA,NA,yes,6C,adult,NA
+pre-treatment,2005-11-29,Gerrhosaurus flavigularis,alive,1,-26.4976,28.2914,13B,NA,1,funnel,4,blue,no,NA,juvenile,NA
+pre-treatment,2005-12-01,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,2,funnel,3,black,no,NA,adult,yes
+pre-treatment,2005-12-04,Gerrhosaurus flavigularis,alive,1,-26.500616666666666,28.288283333333332,13A,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-04,Bitis arietans arietans,alive,1,-26.500616666666666,28.288283333333332,13A,NA,4,funnel,8,black,NA,NA,juvenile,NA
+pre-treatment,2005-12-04,Trachylepis capensis,alive,1,-26.4976,28.2914,13B,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-12-04,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-04,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,2,bucket,NA,NA,yes,D1,adult,NA
+pre-treatment,2005-12-04,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,4,bucket,NA,NA,yes,D2,adult,NA
+pre-treatment,2005-12-04,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,3,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-12-04,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,3,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-12-04,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,4,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-04,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-05,Typhlops bibronii,alive,4,-26.542333333333332,28.2002,6A,NA,1,bucket,NA,NA,NA,NA,adult,NA
+pre-treatment,2005-12-05,Gerrhosaurus flavigularis,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,2,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-05,Trachylepis capensis,alive,1,-26.500616666666666,28.288283333333332,13A,NA,1,bucket,NA,NA,no,NA,juvenile,yes
+pre-treatment,2005-12-06,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,4,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-06,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-06,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,NA,1,funnel,1,blue,no,NA,juvenile,NA
+pre-treatment,2005-12-07,Gerrhosaurus flavigularis,alive,1,-26.500616666666666,28.288283333333332,13A,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-08,Trachylepis varia,alive,2,-26.524166666666666,28.2735,D1,NA,1,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-12-08,Gerrhosaurus flavigularis,alive,2,-26.52485,28.2665,D3,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-12-08,Trachylepis capensis,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,1,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-12-08,Trachylepis capensis,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-12-08,Gerrhosaurus flavigularis,dead,3,-26.543866666666666,28.215683333333335,Z2,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-08,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-12-08,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,4,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-12-08,Trachylepis capensis,alive,4,-26.542333333333332,28.2002,6A,NA,3,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-09,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,NA,1,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-12,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,0,bucket,NA,NA,yes,13C,adult,NA
+pre-treatment,2005-12-12,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,3,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-12,Trachylepis capensis,alive,3,-26.542866666666665,28.2101,Z1,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-12,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,2,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-12-12,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,2,bucket,NA,NA,yes,6B,adult,NA
+pre-treatment,2005-12-12,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,3,funnel,6,blue,no,NA,juvenile,NA
+pre-treatment,2005-12-12,Trachylepis varia,alive,4,-26.548866666666665,28.203833333333332,6B,NA,1,funnel,2,blue,no,NA,juvenile,NA
+pre-treatment,2005-12-12,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,4,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-14,Dasypeltis scabra,alive,1,-26.504683333333332,28.2903,13C,NA,2,funnel,3,blue,NA,NA,adult,NA
+pre-treatment,2005-12-14,Dasypeltis scabra,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,3,funnel,6,black,NA,NA,adult,NA
+pre-treatment,2005-12-15,Trachylepis varia,alive,3,-26.542866666666665,28.2101,Z1,NA,1,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-16,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,2,bucket,NA,NA,no,NA,adult,yes
+pre-treatment,2005-12-17,Causus rhombeatus,alive,2,-26.52485,28.2665,D3,NA,4,funnel,7,blue,NA,NA,juvenile,NA
+pre-treatment,2005-12-17,Aparallactus capensis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,3,funnel,6,blue,NA,NA,adult,NA
+pre-treatment,2005-12-17,Trachylepis varia,alive,4,-26.542333333333332,28.2002,6A,NA,1,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-17,Trachylepis varia,alive,4,-26.542333333333332,28.2002,6A,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-20,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,1,funnel,2,blue,yes,D3,adult,yes
+pre-treatment,2005-12-20,Gerrhosaurus flavigularis,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,3,funnel,5,blue,no,NA,juvenile,NA
+pre-treatment,2005-12-20,Gerrhosaurus flavigularis,dead,3,-26.542866666666665,28.2101,Z1,NA,2,funnel,4,black,no,NA,adult,NA
+pre-treatment,2005-12-21,Duberria lutrix,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,3,funnel,5,blue,NA,NA,adult,NA
+pre-treatment,2005-12-22,Gerrhosaurus flavigularis,alive,1,-26.4976,28.2914,13B,NA,1,funnel,2,black,no,NA,adult,NA
+pre-treatment,2005-12-22,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,1,funnel,2,blue,yes,13C,adult,yes
+pre-treatment,2005-12-22,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,1,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-22,Gerrhosaurus flavigularis,alive,2,-26.52485,28.2665,D3,NA,1,bucket,NA,NA,yes,D3,adult,NA
+pre-treatment,2005-12-22,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,3,bucket,NA,NA,yes,6C,adult,NA
+pre-treatment,2005-12-23,Trachylepis varia,alive,2,-26.524166666666666,28.2735,D1,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-23,Gerrhosaurus flavigularis,alive,2,-26.52485,28.2665,D3,NA,3,funnel,5,black,no,NA,juvenile,NA
+pre-treatment,2005-12-23,Typhlops bibronii,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,0,bucket,NA,NA,NA,NA,adult,NA
+pre-treatment,2005-12-27,Trachylepis capensis,alive,1,-26.504683333333332,28.2903,13C,NA,0,bucket,NA,NA,no,NA,juvenile,yes
+pre-treatment,2005-12-27,Typhlops bibronii,alive,2,-26.52391666666667,28.26931666666667,D2,NA,0,bucket,NA,NA,NA,NA,adult,NA
+pre-treatment,2005-12-27,Trachylepis capensis,dead,2,-26.52485,28.2665,D3,NA,2,funnel,3,blue,no,NA,adult,NA
+pre-treatment,2005-12-27,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,2,funnel,3,blue,no,NA,adult,NA
+pre-treatment,2005-12-27,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,NA,2,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-12-29,Trachylepis capensis,alive,1,-26.4976,28.2914,13B,NA,2,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2005-12-29,Typhlops bibronii,alive,1,-26.504683333333332,28.2903,13C,NA,4,bucket,NA,NA,NA,NA,adult,NA
+pre-treatment,2005-12-29,Pseudaspis cana,alive,4,-26.548866666666665,28.203833333333332,6B,NA,2,funnel,4,blue,NA,NA,juvenile,NA
+pre-treatment,2005-12-30,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,1,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2005-12-30,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,NA,2,funnel,3,blue,yes,D3,adult,NA
+pre-treatment,2005-12-31,Trachylepis varia,alive,4,-26.548866666666665,28.203833333333332,6B,NA,0,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2006-01-08,Bitis arietans arietans,alive,2,-26.52391666666667,28.26931666666667,D2,NA,2,funnel,4,blue,NA,NA,juvenile,NA
+pre-treatment,2006-01-08,Bitis arietans arietans,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,1,bucket,NA,NA,NA,NA,adult,NA
+pre-treatment,2006-01-08,Gerrhosaurus flavigularis,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,3,funnel,5,blue,no,NA,adult,NA
+pre-treatment,2006-01-08,Trachylepis varia,alive,3,-26.542916666666667,28.227166666666665,Z3,NA,3,funnel,5,blue,no,NA,juvenile,NA
+pre-treatment,2006-01-08,Trachylepis varia,alive,3,-26.542866666666665,28.2101,Z1,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2006-01-08,Gerrhosaurus flavigularis,dead,4,-26.542333333333332,28.2002,6A,NA,1,bucket,NA,NA,NA,NA,adult,NA
+pre-treatment,2006-01-11,Bitis arietans arietans,alive,1,-26.4976,28.2914,13B,NA,0,bucket,NA,NA,NA,NA,juvenile,NA
+pre-treatment,2006-01-11,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,NA,0,bucket,NA,NA,yes,13C,adult,yes
+pre-treatment,2006-01-12,Causus rhombeatus,alive,1,-26.500616666666666,28.288283333333332,13A,NA,1,funnel,1,blue,NA,NA,adult,NA
+pre-treatment,2006-01-16,Typhlops bibronii,alive,1,-26.500616666666666,28.288283333333332,13A,NA,0,bucket,NA,NA,NA,NA,juvenile,NA
+pre-treatment,2006-01-17,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,NA,4,bucket,NA,NA,no,NA,adult,NA
+pre-treatment,2006-01-17,Trachylepis capensis,dead,3,-26.543866666666666,28.215683333333335,Z2,NA,1,funnel,2,black,NA,NA,juvenile,NA
+pre-treatment,2006-01-17,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,1,funnel,2,black,yes,D1,adult,NA
+pre-treatment,2006-01-17,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,NA,2,bucket,NA,NA,no,NA,juvenile,NA
+pre-treatment,2006-01-19,Panaspis wahlbergii,alive,1,-26.500616666666666,28.288283333333332,13A,NA,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-02-16,Trachylepis varia,dead,4,-26.542333333333332,28.2002,6A,Burnt,1,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-02-16,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,Burnt,0,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-02-17,Aparallactus capensis,alive,1,-26.4976,28.2914,13B,Control,0,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-02-17,Pseudaspis cana,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,2,funnel,3,black,NA,NA,adult,NA
+post-treatment,2006-02-17,Trachylepis capensis,dead,2,-26.52485,28.2665,D3,Control,0,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-02-17,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,Control,0,bucket,NA,NA,yes,D3,adult,NA
+post-treatment,2006-02-17,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,Control,1,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-02-17,Trachylepis capensis,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,1,funnel,1,black,no,NA,juvenile,NA
+post-treatment,2006-02-17,Gerrhosaurus flavigularis,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-02-17,Gerrhosaurus flavigularis,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,4,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-02-17,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,Burnt,2,funnel,3,blue,no,NA,juvenile,NA
+post-treatment,2006-02-17,Psammophis crucifer,alive,4,-26.542333333333332,28.2002,6A,Burnt,1,funnel,2,black,NA,NA,adult,NA
+post-treatment,2006-02-17,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-02-20,Gerrhosaurus flavigularis,alive,2,-26.524166666666666,28.2735,D1,Burnt,1,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-02-20,Gerrhosaurus flavigularis,alive,2,-26.524166666666666,28.2735,D1,Burnt,1,funnel,1,blue,no,NA,adult,NA
+post-treatment,2006-02-20,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-02-20,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,2,bucket,NA,NA,yes,D2,adult,NA
+post-treatment,2006-02-20,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,Control,2,funnel,4,black,yes,D3,adult,NA
+post-treatment,2006-02-20,Psammophis crucifer,alive,2,-26.52485,28.2665,D3,Control,2,funnel,4,black,NA,NA,adult,NA
+post-treatment,2006-02-20,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-02-20,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-02-20,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,2,funnel,3,blue,yes,Z1,adult,NA
+post-treatment,2006-02-20,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,3,funnel,5,black,no,NA,adult,NA
+post-treatment,2006-02-20,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,4,funnel,7,blue,yes,Z1,adult,NA
+post-treatment,2006-02-20,Psammophis crucifer,alive,4,-26.547416666666667,28.207066666666666,6C,Control,4,funnel,8,blue,NA,NA,adult,NA
+post-treatment,2006-02-20,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-02-20,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-02-20,Psammophis crucifer,alive,4,-26.542333333333332,28.2002,6A,Burnt,1,funnel,2,black,NA,NA,juvenile,NA
+post-treatment,2006-02-22,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,Control,1,funnel,1,black,yes,D3,adult,NA
+post-treatment,2006-02-22,Psammophis crucifer,alive,2,-26.52485,28.2665,D3,Control,4,funnel,7,blue,NA,NA,adult,NA
+post-treatment,2006-02-22,Trachylepis varia,alive,4,-26.542333333333332,28.2002,6A,Burnt,2,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-02-24,Psammophylax rhombeatus,alive,4,-26.542333333333332,28.2002,6A,Burnt,3,funnel,5,black,NA,NA,adult,NA
+post-treatment,2006-02-24,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,Burnt,3,funnel,5,black,yes,6A,adult,NA
+post-treatment,2006-02-24,Trachylepis capensis,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,2,funnel,4,black,no,NA,juvenile,NA
+post-treatment,2006-02-28,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,Burnt,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-02-28,Trachylepis varia,alive,4,-26.542333333333332,28.2002,6A,Burnt,3,funnel,5,black,no,NA,juvenile,NA
+post-treatment,2006-02-28,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,4,funnel,8,blue,NA,NA,adult,NA
+post-treatment,2006-02-28,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,0,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-02-28,Panaspis wahlbergii,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,3,funnel,5,black,no,NA,adult,NA
+post-treatment,2006-03-02,Lycophidion capense,alive,4,-26.542333333333332,28.2002,6A,Burnt,4,funnel,7,blue,NA,NA,adult,NA
+post-treatment,2006-03-02,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,2,funnel,4,black,no,NA,juvenile,NA
+post-treatment,2006-03-02,Panaspis wahlbergii,alive,3,-26.542866666666665,28.2101,Z1,Cut,3,funnel,5,black,no,NA,adult,NA
+post-treatment,2006-03-02,Panaspis wahlbergii,alive,3,-26.542866666666665,28.2101,Z1,Cut,1,funnel,1,blue,no,NA,adult,NA
+post-treatment,2006-03-02,Psammophis crucifer,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,1,funnel,2,black,NA,NA,adult,NA
+post-treatment,2006-03-02,Psammophis crucifer,alive,2,-26.52485,28.2665,D3,Control,1,funnel,2,blue,NA,NA,juvenile,NA
+post-treatment,2006-03-02,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,Control,3,funnel,5,black,no,NA,juvenile,NA
+post-treatment,2006-03-02,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,2,funnel,3,black,no,NA,adult,NA
+post-treatment,2006-03-02,Psammophylax rhombeatus,alive,1,-26.4976,28.2914,13B,Control,3,funnel,6,blue,NA,NA,juvenile,NA
+post-treatment,2006-03-03,Bitis arietans arietans,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,1,funnel,2,blue,NA,NA,juvenile,NA
+post-treatment,2006-03-03,Pseudaspis cana,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,2,funnel,3,black,NA,NA,juvenile,NA
+post-treatment,2006-03-03,Gerrhosaurus flavigularis,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,2,funnel,4,black,no,NA,adult,NA
+post-treatment,2006-03-03,Pseudaspis cana,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,3,funnel,6,black,NA,NA,juvenile,NA
+post-treatment,2006-03-03,Psammophis crucifer,alive,2,-26.52485,28.2665,D3,Control,2,funnel,4,black,NA,NA,adult,NA
+post-treatment,2006-03-03,Gerrhosaurus flavigularis,alive,2,-26.524166666666666,28.2735,D1,Burnt,4,funnel,8,blue,NA,NA,juvenile,NA
+post-treatment,2006-03-06,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,2,funnel,4,blue,no,NA,adult,NA
+post-treatment,2006-03-06,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,1,funnel,2,blue,no,NA,adult,NA
+post-treatment,2006-03-06,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,0,bucket,NA,NA,yes,Z1,adult,NA
+post-treatment,2006-03-06,Panaspis wahlbergii,alive,3,-26.542866666666665,28.2101,Z1,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-03-06,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,3,funnel,6,blue,no,NA,adult,NA
+post-treatment,2006-03-06,Gerrhosaurus flavigularis,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-03-07,Hemachatus haemachatus,alive,4,-26.547416666666667,28.207066666666666,6C,Control,1,bucket,NA,NA,NA,NA,juvenile,NA
+post-treatment,2006-03-07,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,4,funnel,8,blue,yes,6C,adult,NA
+post-treatment,2006-03-08,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,1,funnel,1,black,no,NA,juvenile,NA
+post-treatment,2006-03-08,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,1,funnel,2,blue,yes,D2,adult,NA
+post-treatment,2006-03-08,Gerrhosaurus flavigularis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,3,funnel,6,blue,no,NA,juvenile,NA
+post-treatment,2006-03-08,Trachylepis varia,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,4,funnel,8,black,no,NA,juvenile,NA
+post-treatment,2006-03-08,Trachylepis varia,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,4,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-03-08,Panaspis wahlbergii,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-03-08,Hemachatus haemachatus,dead,4,-26.547416666666667,28.207066666666666,6C,Control,1,funnel,1,black,NA,NA,juvenile,NA
+post-treatment,2006-03-08,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,4,funnel,7,black,yes,6C,adult,NA
+post-treatment,2006-03-08,Psammophis crucifer,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,2,funnel,3,black,NA,NA,adult,NA
+post-treatment,2006-03-08,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,4,funnel,8,blue,no,NA,adult,NA
+post-treatment,2006-03-09,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,Burnt,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-03-09,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,2,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-03-09,Gerrhosaurus flavigularis,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-03-10,Panaspis wahlbergii,alive,4,-26.547416666666667,28.207066666666666,6C,Control,0,bucket,NA,NA,NA,NA,juvenile,NA
+post-treatment,2006-03-10,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,2,funnel,4,black,yes,6C,adult,NA
+post-treatment,2006-03-10,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,4,funnel,7,black,yes,6C,adult,NA
+post-treatment,2006-03-10,Trachylepis capensis,alive,4,-26.542333333333332,28.2002,6A,Burnt,3,funnel,5,black,NA,NA,adult,NA
+post-treatment,2006-03-13,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,2,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-03-13,Gerrhosaurus flavigularis,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,1,funnel,1,black,no,NA,juvenile,NA
+post-treatment,2006-03-13,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-03-13,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,2,funnel,4,black,no,NA,juvenile,NA
+post-treatment,2006-03-13,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,3,funnel,5,black,yes,Z1,adult,NA
+post-treatment,2006-03-13,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-03-13,Trachylepis varia,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,4,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-03-15,Trachylepis capensis,alive,1,-26.500616666666666,28.288283333333332,13A,Cut,2,funnel,3,blue,no,NA,juvenile,NA
+post-treatment,2006-03-15,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,4,funnel,7,black,yes,6C,juvenile,NA
+post-treatment,2006-03-15,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,2,funnel,4,black,no,NA,juvenile,NA
+post-treatment,2006-03-17,Trachylepis capensis,alive,1,-26.4976,28.2914,13B,Control,0,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-03-17,Psammophis crucifer,alive,1,-26.4976,28.2914,13B,Control,3,funnel,6,blue,NA,NA,adult,NA
+post-treatment,2006-03-17,Panaspis wahlbergii,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,4,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-03-17,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,1,funnel,1,black,no,NA,juvenile,NA
+post-treatment,2006-03-17,Panaspis wahlbergii,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,1,funnel,1,black,NA,NA,adult,NA
+post-treatment,2006-03-17,Trachylepis varia,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,2,funnel,4,blue,no,NA,adult,NA
+post-treatment,2006-03-17,Trachylepis varia,alive,4,-26.542333333333332,28.2002,6A,Burnt,2,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-03-20,Gerrhosaurus flavigularis,alive,1,-26.4976,28.2914,13B,Control,2,funnel,3,black,no,NA,juvenile,NA
+post-treatment,2006-03-20,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,4,funnel,7,blue,yes,D2,adult,NA
+post-treatment,2006-03-20,Gerrhosaurus flavigularis,alive,2,-26.52485,28.2665,D3,Control,3,funnel,5,black,no,NA,juvenile,NA
+post-treatment,2006-03-20,Trachylepis varia,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,1,funnel,1,blue,no,NA,juvenile,NA
+post-treatment,2006-03-20,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,1,funnel,1,blue,yes,Z1,adult,NA
+post-treatment,2006-03-20,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-03-20,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,4,funnel,7,blue,no,NA,juvenile,NA
+post-treatment,2006-03-20,Trachylepis varia,alive,3,-26.542866666666665,28.2101,Z1,Cut,4,funnel,8,black,no,NA,juvenile,NA
+post-treatment,2006-03-20,Psammophis crucifer,alive,4,-26.547416666666667,28.207066666666666,6C,Control,2,funnel,3,blue,NA,NA,adult,NA
+post-treatment,2006-03-20,Psammophis crucifer,alive,4,-26.547416666666667,28.207066666666666,6C,Control,3,funnel,5,black,NA,NA,juvenile,NA
+post-treatment,2006-03-20,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,1,funnel,2,blue,no,NA,adult,NA
+post-treatment,2006-03-20,Trachylepis varia,alive,4,-26.542333333333332,28.2002,6A,Burnt,4,funnel,7,blue,no,NA,juvenile,NA
+post-treatment,2006-03-21,Panaspis wahlbergii,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,2,funnel,4,black,NA,NA,adult,NA
+post-treatment,2006-03-21,Psammophis crucifer,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,1,funnel,2,black,NA,NA,adult,NA
+post-treatment,2006-03-21,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,2,funnel,4,black,no,NA,juvenile,NA
+post-treatment,2006-03-21,Panaspis wahlbergii,alive,3,-26.542866666666665,28.2101,Z1,Cut,4,funnel,7,blue,NA,NA,adult,NA
+post-treatment,2006-03-21,Psammophis crucifer,alive,3,-26.542866666666665,28.2101,Z1,Cut,2,funnel,8,black,NA,NA,juvenile,NA
+post-treatment,2006-03-21,Panaspis wahlbergii,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,4,funnel,7,black,NA,NA,adult,NA
+post-treatment,2006-03-22,Trachylepis varia,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-03-22,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,1,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-03-22,Panaspis wahlbergii,alive,4,-26.542333333333332,28.2002,6A,Burnt,4,bucket,NA,NA,NA,NA,juvenile,NA
+post-treatment,2006-03-24,Lycophidion capense,alive,1,-26.4976,28.2914,13B,Control,4,funnel,8,blue,NA,NA,adult,NA
+post-treatment,2006-03-24,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,Control,4,funnel,7,blue,no,NA,adult,NA
+post-treatment,2006-03-24,Psammophis crucifer,alive,3,-26.542866666666665,28.2101,Z1,Cut,2,funnel,3,blue,NA,NA,adult,NA
+post-treatment,2006-03-24,Hemachatus haemachatus,alive,3,-26.542866666666665,28.2101,Z1,Cut,2,funnel,3,blue,NA,NA,adult,NA
+post-treatment,2006-03-24,Trachylepis varia,alive,4,-26.542333333333332,28.2002,6A,Burnt,2,funnel,4,black,yes,6A,juvenile,NA
+post-treatment,2006-03-27,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-03-27,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,4,funnel,7,black,no,NA,adult,NA
+post-treatment,2006-03-27,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,4,funnel,7,black,no,NA,adult,NA
+post-treatment,2006-03-27,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,2,funnel,4,black,yes,6C,adult,NA
+post-treatment,2006-03-27,Panaspis wahlbergii,alive,4,-26.547416666666667,28.207066666666666,6C,Control,1,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-03-27,Panaspis wahlbergii,alive,3,-26.542866666666665,28.2101,Z1,Cut,1,funnel,1,blue,NA,NA,adult,NA
+post-treatment,2006-03-27,Panaspis wahlbergii,alive,3,-26.542866666666665,28.2101,Z1,Cut,4,funnel,7,blue,NA,NA,adult,NA
+post-treatment,2006-03-27,Hemachatus haemachatus,alive,3,-26.542866666666665,28.2101,Z1,Cut,2,funnel,3,blue,NA,NA,adult,NA
+post-treatment,2006-03-27,Hemachatus haemachatus,alive,3,-26.542866666666665,28.2101,Z1,Cut,2,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-03-27,Gerrhosaurus flavigularis,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,1,funnel,1,blue,no,NA,juvenile,NA
+post-treatment,2006-03-27,Trachylepis capensis,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,2,funnel,4,black,NA,NA,juvenile,NA
+post-treatment,2006-03-27,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,Control,2,funnel,4,black,yes,D3,adult,NA
+post-treatment,2006-03-27,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,1,funnel,2,blue,no,NA,adult,NA
+post-treatment,2006-03-27,Gerrhosaurus flavigularis,alive,2,-26.524166666666666,28.2735,D1,Burnt,0,bucket,NA,NA,yes,D2,adult,NA
+post-treatment,2006-03-29,Trachylepis capensis,alive,1,-26.500616666666666,28.288283333333332,13A,Cut,4,funnel,7,blue,no,NA,adult,NA
+post-treatment,2006-03-29,Lycophidion capense,alive,2,-26.52485,28.2665,D3,Control,1,funnel,1,black,NA,NA,adult,NA
+post-treatment,2006-03-29,Psammophis crucifer,alive,3,-26.542866666666665,28.2101,Z1,Cut,1,funnel,1,blue,NA,NA,adult,NA
+post-treatment,2006-03-29,Panaspis wahlbergii,alive,3,-26.542866666666665,28.2101,Z1,Cut,4,funnel,8,black,NA,NA,adult,NA
+post-treatment,2006-03-29,Psammophis crucifer,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,4,funnel,7,black,NA,NA,adult,NA
+post-treatment,2006-03-29,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,4,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-03-29,Trachylepis varia,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,4,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-03-30,Trachylepis capensis,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,1,bucket,NA,NA,yes,Z2,adult,NA
+post-treatment,2006-03-30,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,4,funnel,7,black,yes,6B,juvenile,NA
+post-treatment,2006-03-31,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,4,funnel,7,black,no,NA,juvenile,NA
+post-treatment,2006-03-31,Gerrhosaurus flavigularis,alive,2,-26.524166666666666,28.2735,D1,Burnt,4,funnel,7,black,no,NA,juvenile,NA
+post-treatment,2006-03-31,Gerrhosaurus flavigularis,alive,1,-26.504683333333332,28.2903,13C,Burnt,4,funnel,8,blue,no,NA,juvenile,NA
+post-treatment,2006-04-03,Gerrhosaurus flavigularis,alive,2,-26.524166666666666,28.2735,D1,Burnt,3,bucket,NA,NA,yes,D1,juvenile,NA
+post-treatment,2006-04-03,Trachylepis capensis,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,4,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-03,Psammophis crucifer,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,2,funnel,3,blue,NA,NA,adult,NA
+post-treatment,2006-04-03,Trachylepis varia,alive,3,-26.542866666666665,28.2101,Z1,Cut,2,funnel,4,black,no,NA,adult,NA
+post-treatment,2006-04-03,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-03,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,4,funnel,7,black,no,NA,adult,NA
+post-treatment,2006-04-03,Panaspis wahlbergii,alive,4,-26.542333333333332,28.2002,6A,Burnt,2,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-04-04,Trachylepis varia,alive,2,-26.52485,28.2665,D3,Control,3,funnel,6,blue,no,NA,adult,NA
+post-treatment,2006-04-04,Panaspis wahlbergii,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,1,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-04-04,Trachylepis varia,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,4,funnel,8,blue,no,NA,adult,NA
+post-treatment,2006-04-04,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,2,funnel,4,black,no,NA,adult,NA
+post-treatment,2006-04-04,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,4,funnel,7,black,no,NA,adult,NA
+post-treatment,2006-04-04,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,4,funnel,7,black,yes,6C,juvenile,NA
+post-treatment,2006-04-04,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,4,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-04,Trachylepis varia,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,3,funnel,5,black,no,NA,adult,NA
+post-treatment,2006-04-04,Panaspis wahlbergii,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,3,funnel,5,black,NA,NA,adult,NA
+post-treatment,2006-04-04,Panaspis wahlbergii,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,3,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-04-05,Trachylepis varia,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,1,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-04-05,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-05,Panaspis wahlbergii,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,0,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-04-05,Trachylepis capensis,alive,4,-26.542333333333332,28.2002,6A,Burnt,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-06,Trachylepis capensis,alive,1,-26.4976,28.2914,13B,Control,4,funnel,7,black,yes,13B,adult,NA
+post-treatment,2006-04-06,Causus rhombeatus,alive,1,-26.4976,28.2914,13B,Control,1,funnel,1,blue,NA,NA,juvenile,NA
+post-treatment,2006-04-06,Trachylepis varia,alive,2,-26.52485,28.2665,D3,Control,3,funnel,5,black,no,NA,juvenile,NA
+post-treatment,2006-04-06,Trachylepis varia,alive,2,-26.52485,28.2665,D3,Control,3,funnel,6,blue,no,NA,adult,NA
+post-treatment,2006-04-06,Trachylepis varia,alive,2,-26.52485,28.2665,D3,Control,4,funnel,8,black,no,NA,juvenile,NA
+post-treatment,2006-04-06,Panaspis wahlbergii,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,0,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-04-06,Panaspis wahlbergii,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,1,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-04-06,Trachylepis varia,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,1,funnel,1,blue,no,NA,juvenile,NA
+post-treatment,2006-04-06,Trachylepis capensis,alive,3,-26.542866666666665,28.2101,Z1,Cut,4,funnel,8,black,NA,NA,adult,NA
+post-treatment,2006-04-06,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,3,funnel,6,blue,no,NA,juvenile,NA
+post-treatment,2006-04-06,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-06,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-06,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-07,Pseudaspis cana,alive,1,-26.4976,28.2914,13B,Control,2,funnel,4,blue,NA,NA,juvenile,NA
+post-treatment,2006-04-07,Trachylepis varia,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,4,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-04-07,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-07,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,1,funnel,1,black,yes,6C,adult,NA
+post-treatment,2006-04-07,Panaspis wahlbergii,alive,4,-26.547416666666667,28.207066666666666,6C,Control,4,funnel,7,black,NA,NA,adult,NA
+post-treatment,2006-04-07,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,2,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-07,Trachylepis varia,alive,4,-26.542333333333332,28.2002,6A,Burnt,2,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-04-09,Gerrhosaurus flavigularis,alive,1,-26.4976,28.2914,13B,Control,3,funnel,5,black,no,NA,juvenile,NA
+post-treatment,2006-04-09,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,1,funnel,2,blue,no,NA,adult,NA
+post-treatment,2006-04-09,Gerrhosaurus flavigularis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,4,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-09,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,Control,1,funnel,1,black,yes,D3,adult,NA
+post-treatment,2006-04-09,Trachylepis capensis,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,1,funnel,1,black,no,NA,adult,NA
+post-treatment,2006-04-09,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,1,funnel,1,blue,no,NA,juvenile,NA
+post-treatment,2006-04-09,Trachylepis capensis,alive,3,-26.542866666666665,28.2101,Z1,Cut,4,funnel,8,black,no,NA,adult,NA
+post-treatment,2006-04-09,Hemachatus haemachatus,alive,3,-26.542866666666665,28.2101,Z1,Cut,2,funnel,4,black,NA,NA,adult,NA
+post-treatment,2006-04-09,Psammophis crucifer,alive,4,-26.547416666666667,28.207066666666666,6C,Control,2,funnel,4,black,NA,NA,adult,NA
+post-treatment,2006-04-09,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,3,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-04-09,Trachylepis varia,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,4,funnel,8,blue,no,NA,juvenile,NA
+post-treatment,2006-04-09,Trachylepis capensis,alive,4,-26.542333333333332,28.2002,6A,Burnt,3,funnel,5,black,no,NA,juvenile,NA
+post-treatment,2006-04-11,Panaspis wahlbergii,alive,1,-26.4976,28.2914,13B,Control,1,funnel,2,black,NA,NA,adult,NA
+post-treatment,2006-04-11,Panaspis wahlbergii,alive,2,-26.524166666666666,28.2735,D1,Burnt,4,funnel,7,black,NA,NA,adult,NA
+post-treatment,2006-04-11,Panaspis wahlbergii,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,2,funnel,3,black,NA,NA,adult,NA
+post-treatment,2006-04-11,Trachylepis capensis,alive,3,-26.542866666666665,28.2101,Z1,Cut,4,funnel,7,blue,yes,Z1,adult,NA
+post-treatment,2006-04-11,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,3,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-04-11,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-11,Panaspis wahlbergii,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,0,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-04-11,Panaspis wahlbergii,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,1,funnel,2,blue,NA,NA,adult,NA
+post-treatment,2006-04-11,Trachylepis varia,alive,4,-26.542333333333332,28.2002,6A,Burnt,4,funnel,8,black,NA,NA,juvenile,NA
+post-treatment,2006-04-13,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,3,funnel,3,blue,yes,D2,adult,NA
+post-treatment,2006-04-13,Panaspis wahlbergii,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,3,funnel,6,black,NA,NA,adult,NA
+post-treatment,2006-04-13,Trachylepis varia,alive,3,-26.542866666666665,28.2101,Z1,Cut,2,funnel,3,blue,no,NA,juvenile,NA
+post-treatment,2006-04-13,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,Burnt,2,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-14,Gerrhosaurus flavigularis,alive,2,-26.524166666666666,28.2735,D1,Burnt,2,funnel,3,blue,no,NA,juvenile,NA
+post-treatment,2006-04-14,Trachylepis varia,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,1,bucket,NA,NA,yes,Z2,adult,NA
+post-treatment,2006-04-14,Trachylepis varia,alive,3,-26.542866666666665,28.2101,Z1,Cut,1,funnel,1,blue,no,NA,adult,NA
+post-treatment,2006-04-14,Trachylepis capensis,alive,3,-26.542866666666665,28.2101,Z1,Cut,1,funnel,2,black,yes,Z1,adult,NA
+post-treatment,2006-04-14,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-14,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-18,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,Burnt,2,funnel,3,blue,no,NA,adult,NA
+post-treatment,2006-04-18,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,Burnt,4,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-04-18,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,0,bucket,NA,NA,yes,D2,adult,NA
+post-treatment,2006-04-18,Panaspis wahlbergii,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,4,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-04-18,Trachylepis capensis,dead,3,-26.543866666666666,28.215683333333335,Z2,Control,0,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-04-18,Trachylepis varia,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,3,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-04-18,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-18,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,0,bucket,NA,NA,yes,6C,juvenile,NA
+post-treatment,2006-04-18,Trachylepis capensis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,4,funnel,7,black,no,NA,juvenile,NA
+post-treatment,2006-04-18,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,2,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-18,Panaspis wahlbergii,alive,4,-26.542333333333332,28.2002,6A,Burnt,1,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-04-19,Panaspis wahlbergii,alive,1,-26.4976,28.2914,13B,Control,1,funnel,2,black,NA,NA,adult,NA
+post-treatment,2006-04-19,Bitis arietans arietans,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,1,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-04-19,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,2,funnel,3,black,no,NA,adult,NA
+post-treatment,2006-04-19,Trachylepis varia,alive,2,-26.52485,28.2665,D3,Control,1,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-04-19,Trachylepis varia,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,3,funnel,6,black,yes,Z2,adult,NA
+post-treatment,2006-04-19,Trachylepis varia,alive,3,-26.542866666666665,28.2101,Z1,Cut,4,funnel,8,black,no,NA,adult,NA
+post-treatment,2006-04-19,Panaspis wahlbergii,alive,4,-26.547416666666667,28.207066666666666,6C,Control,4,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-04-19,Gerrhosaurus flavigularis,alive,4,-26.542333333333332,28.2002,6A,Burnt,2,funnel,4,black,no,NA,juvenile,NA
+post-treatment,2006-04-20,Trachylepis varia,alive,1,-26.500616666666666,28.288283333333332,13A,Cut,4,funnel,7,blue,no,NA,adult,NA
+post-treatment,2006-04-20,Trachylepis varia,alive,2,-26.524166666666666,28.2735,D1,Burnt,1,funnel,2,black,no,NA,adult,NA
+post-treatment,2006-04-20,Gerrhosaurus flavigularis,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,1,funnel,1,black,no,NA,adult,NA
+post-treatment,2006-04-20,Trachylepis varia,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,4,funnel,7,blue,yes,Z3,adult,NA
+post-treatment,2006-04-20,Panaspis wahlbergii,alive,3,-26.543866666666666,28.215683333333335,Z2,Control,0,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-04-20,Trachylepis varia,alive,3,-26.542866666666665,28.2101,Z1,Cut,0,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-04-20,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,3,funnel,6,blue,yes,6B,adult,NA
+post-treatment,2006-04-20,Panaspis wahlbergii,alive,4,-26.542333333333332,28.2002,6A,Burnt,4,funnel,8,black,NA,NA,adult,NA
+post-treatment,2006-04-20,Trachylepis varia,alive,4,-26.542333333333332,28.2002,6A,Burnt,1,funnel,2,black,no,NA,adult,NA
+post-treatment,2006-04-21,Bitis arietans arietans,alive,1,-26.4976,28.2914,13B,Control,1,bucket,NA,NA,NA,NA,adult,NA
+post-treatment,2006-04-21,Panaspis wahlbergii,alive,1,-26.4976,28.2914,13B,Control,1,funnel,2,black,NA,NA,adult,NA
+post-treatment,2006-04-21,Bitis arietans arietans,alive,2,-26.52485,28.2665,D3,Control,1,bucket,NA,NA,NA,NA,juvenile,NA
+post-treatment,2006-04-21,Trachylepis capensis,alive,2,-26.52485,28.2665,D3,Control,1,funnel,1,black,no,NA,adult,NA
+post-treatment,2006-04-21,Bitis arietans arietans,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,4,funnel,7,blue,NA,NA,adult,NA
+post-treatment,2006-04-21,Panaspis wahlbergii,alive,3,-26.542866666666665,28.2101,Z1,Cut,2,funnel,3,blue,NA,NA,adult,NA
+post-treatment,2006-04-21,Gerrhosaurus flavigularis,alive,4,-26.547416666666667,28.207066666666666,6C,Control,3,funnel,5,black,no,NA,juvenile,NA
+post-treatment,2006-04-21,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,4,bucket,NA,NA,yes,6B,adult,NA
+post-treatment,2006-04-22,Gerrhosaurus flavigularis,alive,2,-26.52391666666667,28.26931666666667,D2,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-22,Bitis arietans arietans,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,2,funnel,4,black,NA,NA,adult,NA
+post-treatment,2006-04-25,Trachylepis capensis,alive,4,-26.542333333333332,28.2002,6A,Burnt,2,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-25,Trachylepis varia,alive,4,-26.542333333333332,28.2002,6A,Burnt,2,bucket,NA,NA,no,NA,adult,NA
+post-treatment,2006-04-25,Psammophylax rhombeatus,alive,4,-26.547416666666667,28.207066666666666,6C,Control,4,funnel,7,black,NA,NA,adult,NA
+post-treatment,2006-04-25,Gerrhosaurus flavigularis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,0,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-25,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,1,bucket,NA,NA,yes,6B,adult,NA
+post-treatment,2006-04-25,Trachylepis capensis,alive,4,-26.548866666666665,28.203833333333332,6B,Cut,3,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-25,Trachylepis capensis,alive,3,-26.542866666666665,28.2101,Z1,Cut,2,funnel,4,NA,no,NA,juvenile,NA
+post-treatment,2006-04-25,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,3,funnel,6,NA,yes,Z1,adult,NA
+post-treatment,2006-04-25,Trachylepis capensis,alive,3,-26.542866666666665,28.2101,Z1,Cut,1,bucket,NA,NA,no,NA,juvenile,NA
+post-treatment,2006-04-25,Bitis arietans arietans,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,4,bucket,NA,NA,NA,NA,juvenile,NA
+pre-treatment,2005-08-30,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-09-02,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-09-04,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-09-07,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-09-12,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-09-17,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-10-08,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-11-05,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-11-23,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-11-28,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-11-30,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-12-02,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-12-13,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-12-19,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2006-01-02,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2006-01-13,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-02-18,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-02-21,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-02-23,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-02-27,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-03-01,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-03-14,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-03-16,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-03-23,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-03-28,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-04-12,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-04-17,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-04-23,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-04-24,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
