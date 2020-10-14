@@ -7,26 +7,112 @@ editor_options:
   chunk_output_type: console
 ---
 
-```{r setup}
+```{r setup, message = FALSE}
 library(tidyverse)
+library(here)
+library(lubridate)
+
+data <- read_csv(here("/data/clean_data.csv")) %>% 
+           mutate(date = as_date(date),
+                         arm = as_factor(arm),
+                         block = as_factor(block),
+                         species = as.character(species))
 ```
 
-## Introduction
+## **Introduction**
 
 The raw data from my survey have been captured, cleaned and are now ready to be viewed for different insights.
 As the survey was quite complex from a methodological and practical perspective, I will now produce summaries and visualisations of the relevant survey components and variables.
-These will help me in determining any issues that may influence my desired analysis path. 
-(@) The total number of species detected during the survey  
+These will help me in determining any issues that may influence my desired analysis path.
+
+#### **The total number of species detected during the survey**
+
 Suikerbosrand Nature Reserve has been surveyed for reptiles several times since its proclamation in 1973 e.g. Jacobsen *et al.* (1986) and Masterson *et al.* (2008).
-Determining the total number of species detected during this survey is an important first step in gauging the general success of the survey.  
-```{r total species, include = TRUE}
+From these surveys, we know that there are roughly 40 species of reptile that have ever been recorded in Suikerbosrand Nature Reserve during its history.
+Determining the total number of species detected during this survey is an important first step in gauging the general success of the survey. 
+
+```{r total species}
 data %>% 
   summarise(total_species = n_distinct(species))
 ```
-(@) The total number of species detected at each site  
+
+Twenty-one species seems is barely more than half of the 40 species, and yet this is not altogether surprising given that the traps were all placed in open grassland away from the diverse habitats associated with the reserve's ridges, water bodies and aloe forests. 
+
+#### **The total number of detections per species**
+
+```{r captures per species}
+data %>%
+  drop_na(species) %>% 
+  group_by(species) %>% 
+  summarise(total_captures = n(), .groups = "drop") %>% 
+  arrange(desc(total_captures))
+```
+
+#### **The total number of species detected at each site**
 
 ```{r species per site}
 sitephase_summary <- data %>%
-                      group_by(trap_site, species, phase) %>%
-                      summarise(count_per_trap_site = n())
+  group_by(trap_site, species, phase) %>%
+  summarise(count_per_trap_site = n())
 ```
+
+#### **Species captures per site per day**
+
+One of the key considerations when using hierarchical models is whether to use detection or abundance data to model species occupancy.
+For the majority of species, I expected to catch just a single individual per trap array per trap array visit (i.e. 'day').
+
+```{r}
+# create pivot table of species per day, per trap array and phase
+sitephase_summary <- data %>%
+  group_by(trap_site, species, phase, date) %>%
+  summarise(count_per_day = n(), .groups = "drop")
+
+sitephase_summary %>% 
+  filter(count_per_day > 1) %>% 
+  group_by(species) %>% 
+  summarise(count_of_non_singleton_days = n(), .groups = "drop") %>% 
+  arrange(desc(count_of_non_singleton_days))
+```
+
+This summary shows me the seven species which did not match my expectation, in descending order of non-singleton days.
+The first five are the common lizard species in Suikerbosrand Nature Reserve, and the last two are snake species.
+One other question we might ask is whether or not the number of non-singleton days was different between the pre-treatment and post-treatment phases of the project. 
+
+```{r non-singleton days per phase}
+sitephase_summary %>% 
+  filter(count_per_day > 1) %>% 
+  group_by(species,phase) %>% 
+  summarise(count_of_non_singleton_days = n(), .groups = "drop") %>% 
+  arrange(desc(count_of_non_singleton_days))
+```
+
+Incredibly, we see a near-perfect, 50-50 split of non-singleton days between the two phases for four of the species. 
+The  three species for which the split is not even are *P. wahlbergii* (pre 0:5 post), *A. a. distanti* (pre 2:0 post) and *H. haemachatus* (pre 0:1 post).
+Of these three species, only *A. a. distanti* is deserving of further consideration.
+Knowing that the species was infrequently captured during the survey - with zero captures in the post-treatment phase of the project - it is important to consider how much data could be lost if we reduce these non-singleton days to singletons for use in an 'any detection per day' formulation of our hierarchical model. 
+
+```{r}
+sitephase_summary %>% 
+  filter(count_per_day > 1, 
+         species == "Agama a. distanti")
+```
+
+As we see here, I captured three individuals at `D1` on both of the non-singleton days, which were only two days apart in October 2005.
+This means that six of the  
+
+#### Does this matter? 
+
+(It is important to highlight that the number shown above indicates how many times non-singletons occurred at a single trap array, even if they occurred on the same date.)
+To see how many unique days I captured more than a singleton of each of these species, we need to group by date as shown below.
+
+```{r}
+sitephase_summary %>% 
+  filter(count_per_day > 1) %>% 
+  group_by(species, date) %>% 
+  summarise(count_per_day = n(), .groups = "drop_last") %>% 
+  summarise(count_of_non_singleton_days = n(), .groups = "drop") %>% 
+  arrange(desc(count_of_non_singleton_days))
+```
+
+This would only be relevant for models which group all the detection data for species by day and ignore site-specific detections.
+

@@ -4,14 +4,14 @@ library(here)
 library(tidyverse)
 library(readxl)
 library(janitor)
-library(skimr)
 library(lubridate)
+library(skimr)
 
-# import dataset
+# import raw data as captured during project
 raw_data <- read_xlsx(path = here("/data/all_data.xlsx"), sheet = "raw_data")
 
 # clean the variable names, set variable types and split "funnel-x" into two variables.
-data <- raw_data %>%
+clean_data <- raw_data %>%
           clean_names() %>%
           mutate(date = as_date(date),
                  arm = as_factor(arm),
@@ -24,15 +24,5 @@ data <- raw_data %>%
           mutate_if(is.character,as.factor)
 
 # view a summary of the data
-skimr::skim(data)
-
-#####################################################################################################
-# Split this to take these tables to the relevant Rmarkdown documents
-# create pivot tables for later analysis
-
-# create pivot table of species per day, per trap array and phase
-sitephase_summary <- data %>%
-                      group_by(trap_site, species, phase, date) %>%
-                      summarise(count_per_day = n())
-
-
+skimr::skim(clean_data)
+write_csv(clean_data, here("/data/clean_data.csv"))
