@@ -8,7 +8,8 @@ library(lubridate)
 library(skimr)
 
 # import raw data as captured during project
-raw_data <- read_xlsx(path = here("/data/all_data.xlsx"), sheet = "raw_data")
+raw_data <- read_xlsx(path = here("/data/all_data.xlsx"),
+                      sheet = "raw_data")
 
 # clean the variable names, set variable types and split "funnel-x" into two variables.
 clean_data <- raw_data %>%

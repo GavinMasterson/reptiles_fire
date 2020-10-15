@@ -15,8 +15,7 @@ library(lubridate)
 data <- read_csv(here("/data/clean_data.csv")) %>% 
            mutate(date = as_date(date),
                          arm = as_factor(arm),
-                         block = as_factor(block),
-                         species = as.character(species))
+                         block = as_factor(block))
 ```
 
 ## **Introduction**
@@ -36,16 +35,31 @@ data %>%
   summarise(total_species = n_distinct(species))
 ```
 
-Twenty-one species seems is barely more than half of the 40 species, and yet this is not altogether surprising given that the traps were all placed in open grassland away from the diverse habitats associated with the reserve's ridges, water bodies and aloe forests. 
+Twenty-one species is barely more than half of the 40 species that might have been present in the reserve, so how well did we do?
+While we might have hoped to capture a greater number of the species, there are two reasons that we need not be too concerned with only having caught 21 species. 
+Firstly, the survey was not aiming to catch all the species in the reserve.
+This survey aimed to understand the effects of disturbance on the local assemblages in one type of habitat - open grassland. 
+Secondly, there is no reason to expect that all 40 species that have ever been recorded in Suikerbosrand Nature Reserve are still present in the reserve. 
+The most intense survey of the reserve was conducted by Niels Jacobsen in the 1980's and the surrounding area, now called Gauteng Province, has undergone rapid intensification of land use in the past 30+ years.
+Therefore, the positive view of this survey is that we can confidently say that at least 21 reptile species still occur in Suikerbosrand Nature Reserve.
 
 #### **The total number of detections per species**
 
 ```{r captures per species}
 data %>%
   drop_na(species) %>% 
-  group_by(species) %>% 
-  summarise(total_captures = n(), .groups = "drop") %>% 
-  arrange(desc(total_captures))
+  group_by(species,phase) %>% 
+  summarise(total_captures = n(),
+            .groups = "drop_last") %>% 
+  arrange(species) %>% 
+  ggplot(., mapping = aes(x = species, 
+                          y = total_captures)) +
+    geom_col(aes(colour = phase,
+                 fill = phase),
+             position = position_dodge()) +
+    xlab("Species") +
+    guides(x = guide_axis(angle = 90)) +
+    ylab("Total captures") 
 ```
 
 #### **The total number of species detected at each site**
@@ -58,8 +72,9 @@ sitephase_summary <- data %>%
 
 #### **Species captures per site per day**
 
-One of the key considerations when using hierarchical models is whether to use detection or abundance data to model species occupancy.
-For the majority of species, I expected to catch just a single individual per trap array per trap array visit (i.e. 'day').
+One of the considerations when using hierarchical models is whether to use detection or abundance data to model species occupancy.
+Reptiles do not have to be active every day like mammals, which means that they are unlikely to encounter the trap arrays on a daily basis. 
+As a result, I expected to catch just a single individual per trap array per day of checking.
 
 ```{r}
 # create pivot table of species per day, per trap array and phase
@@ -98,7 +113,16 @@ sitephase_summary %>%
 ```
 
 As we see here, I captured three individuals at `D1` on both of the non-singleton days, which were only two days apart in October 2005.
-This means that six of the  
+This means that six of the 25 detections of this species (24 %) would be reduced to two detections using a 'detection per site per day' approach.
+
+
+
+
+
+
+
+
+
 
 #### Does this matter? 
 
