@@ -2,7 +2,7 @@ phase,date,species,alive,block,lat,long,trap_site,treatment,arm,trap_type,trap_p
 pre-treatment,2005-08-29,Trachylepis capensis,alive,1,-26.500616666666666,28.288283333333332,13A,NA,0,bucket,NA,NA,no,NA,juvenile,NA
 pre-treatment,2005-08-29,Trachylepis capensis,alive,2,-26.524166666666666,28.2735,D1,NA,1,bucket,NA,NA,no,NA,adult,yes
 pre-treatment,2005-08-29,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,2,funnel,3,black,no,NA,adult,yes
-pre-treatment,2005-09-01,Trachylepis capensis,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,1,funnel,8,NA,no,NA,juvenile,NA
+pre-treatment,2005-09-01,Trachylepis capensis,alive,3,-26.543866666666666,28.215683333333335,Z2,NA,4,funnel,8,blue,no,NA,juvenile,NA
 pre-treatment,2005-09-03,Agama a. distanti,alive,2,-26.524166666666666,28.2735,D1,NA,2,bucket,NA,NA,no,NA,juvenile,NA
 pre-treatment,2005-09-03,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,1,bucket,NA,NA,no,NA,adult,NA
 pre-treatment,2005-09-03,Trachylepis capensis,alive,2,-26.52391666666667,28.26931666666667,D2,NA,0,bucket,NA,NA,no,NA,adult,NA
@@ -550,32 +550,32 @@ post-treatment,2006-04-25,Trachylepis capensis,alive,3,-26.542866666666665,28.21
 post-treatment,2006-04-25,Gerrhosaurus flavigularis,alive,3,-26.542866666666665,28.2101,Z1,Cut,3,funnel,6,NA,yes,Z1,adult,NA
 post-treatment,2006-04-25,Trachylepis capensis,alive,3,-26.542866666666665,28.2101,Z1,Cut,1,bucket,NA,NA,no,NA,juvenile,NA
 post-treatment,2006-04-25,Bitis arietans arietans,alive,3,-26.542916666666667,28.227166666666665,Z3,Burnt,4,bucket,NA,NA,NA,NA,juvenile,NA
-pre-treatment,2005-08-30,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2005-09-02,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2005-09-04,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2005-09-07,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2005-09-12,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2005-09-17,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2005-10-08,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2005-11-05,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2005-11-23,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2005-11-28,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2005-11-30,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2005-12-02,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2005-12-13,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2005-12-19,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2006-01-02,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-pre-treatment,2006-01-13,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-post-treatment,2006-02-18,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-post-treatment,2006-02-21,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-post-treatment,2006-02-23,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-post-treatment,2006-02-27,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-post-treatment,2006-03-01,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-post-treatment,2006-03-14,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-post-treatment,2006-03-16,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-post-treatment,2006-03-23,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-post-treatment,2006-03-28,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-post-treatment,2006-04-12,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-post-treatment,2006-04-17,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-post-treatment,2006-04-23,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-post-treatment,2006-04-24,"NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-08-30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-09-02,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-09-04,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-09-07,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-09-12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-09-17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-10-08,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-11-05,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-11-23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-11-28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-11-30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-12-02,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-12-13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2005-12-19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2006-01-02,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+pre-treatment,2006-01-13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-02-18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-02-21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-02-23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-02-27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-03-01,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-03-14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-03-16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-03-23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-03-28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-04-12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-04-17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-04-23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+post-treatment,2006-04-24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

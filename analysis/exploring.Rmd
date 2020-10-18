@@ -35,7 +35,7 @@ data %>%
   summarise(total_species = n_distinct(species))
 ```
 
-Twenty-one species is barely more than half of the 40 species that might have been present in the reserve, so how well did we do?
+Twenty species is just half of the estimated 40 reptile species that might be present in the reserve, so how well did we really do?
 While we might have hoped to capture a greater number of the species, there are two reasons that we need not be too concerned with only having caught 21 species. 
 Firstly, the survey was not aiming to catch all the species in the reserve.
 This survey aimed to understand the effects of disturbance on the local assemblages in one type of habitat - open grassland. 
