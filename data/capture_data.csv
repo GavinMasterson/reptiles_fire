@@ -3,12 +3,12 @@ date,species,alive,trap_site,arm,trap_type,trap_position,fence_colour,recapture,
 2005-08-29,Trachylepis capensis,alive,D1,1,bucket,NA,NA,no,NA,adult,yes
 2005-08-29,Trachylepis capensis,alive,D2,2,funnel,3,black,no,NA,adult,yes
 2005-09-01,Trachylepis capensis,alive,Z2,4,funnel,8,blue,no,NA,juvenile,NA
-2005-09-03,Agama a. distanti,alive,D1,2,bucket,NA,NA,no,NA,juvenile,NA
+2005-09-03,Agama aculeata distanti,alive,D1,2,bucket,NA,NA,no,NA,juvenile,NA
 2005-09-03,Trachylepis capensis,alive,D2,1,bucket,NA,NA,no,NA,adult,NA
 2005-09-03,Trachylepis capensis,alive,D2,0,bucket,NA,NA,no,NA,adult,NA
 2005-09-03,Trachylepis capensis,alive,D3,4,funnel,7,blue,no,NA,adult,NA
 2005-09-03,Trachylepis capensis,alive,Z1,0,bucket,NA,NA,no,NA,adult,yes
-2005-09-05,Agama a. distanti,alive,D1,0,bucket,NA,NA,yes,D1,juvenile,NA
+2005-09-05,Agama aculeata distanti,alive,D1,0,bucket,NA,NA,yes,D1,juvenile,NA
 2005-09-05,Trachylepis capensis,alive,D3,2,bucket,NA,NA,no,NA,adult,NA
 2005-09-05,Trachylepis capensis,alive,D3,4,bucket,NA,NA,no,NA,juvenile,NA
 2005-09-05,Trachylepis capensis,alive,Z3,0,bucket,NA,NA,no,NA,adult,NA
@@ -23,7 +23,7 @@ date,species,alive,trap_site,arm,trap_type,trap_position,fence_colour,recapture,
 2005-09-11,Trachylepis capensis,alive,Z2,2,funnel,3,blue,no,NA,juvenile,NA
 2005-09-13,Panaspis wahlbergii,alive,Z2,0,bucket,NA,NA,no,NA,adult,NA
 2005-09-13,Trachylepis capensis,alive,D1,3,bucket,NA,NA,no,NA,adult,NA
-2005-09-14,Agama a. distanti,alive,D1,4,bucket,NA,NA,no,NA,adult,NA
+2005-09-14,Agama aculeata distanti,alive,D1,4,bucket,NA,NA,no,NA,adult,NA
 2005-09-14,Trachylepis capensis,alive,13B,2,bucket,NA,NA,no,NA,adult,yes
 2005-09-14,Trachylepis capensis,alive,Z1,4,funnel,8,black,no,NA,juvenile,NA
 2005-09-16,Trachylepis capensis,alive,Z1,4,funnel,8,black,no,NA,adult,yes
@@ -34,26 +34,26 @@ date,species,alive,trap_site,arm,trap_type,trap_position,fence_colour,recapture,
 2005-09-22,Gerrhosaurus flavigularis,alive,D3,4,bucket,NA,NA,no,NA,adult,NA
 2005-09-23,Gerrhosaurus flavigularis,alive,Z1,0,bucket,NA,NA,no,NA,juvenile,NA
 2005-09-24,Gerrhosaurus flavigularis,alive,13C,1,bucket,NA,NA,no,NA,adult,NA
-2005-09-26,Agama a. distanti,alive,D1,0,bucket,NA,NA,no,NA,adult,NA
+2005-09-26,Agama aculeata distanti,alive,D1,0,bucket,NA,NA,no,NA,adult,NA
 2005-09-26,Gerrhosaurus flavigularis,alive,Z3,0,bucket,NA,NA,no,NA,adult,NA
 2005-09-26,Gerrhosaurus flavigularis,alive,Z1,2,funnel,4,black,no,NA,adult,NA
-2005-09-27,Agama a. distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
+2005-09-27,Agama aculeata distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
 2005-09-29,Gerrhosaurus flavigularis,alive,Z1,2,bucket,NA,NA,yes,Z1,juvenile,NA
 2005-09-29,Psammophis crucifer,alive,Z2,4,funnel,8,blue,NA,NA,juvenile,NA
 2005-09-30,Pseudaspis cana,alive,Z2,2,funnel,3,blue,NA,NA,juvenile,NA
-2005-10-01,Agama a. distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
+2005-10-01,Agama aculeata distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
 2005-10-01,Gerrhosaurus flavigularis,alive,13C,4,bucket,NA,NA,no,NA,juvenile,NA
 2005-10-01,Gerrhosaurus flavigularis,alive,D3,1,bucket,NA,NA,no,NA,adult,NA
 2005-10-01,Trachylepis capensis,alive,D1,4,bucket,NA,NA,no,NA,adult,NA
-2005-10-02,Agama a. distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
-2005-10-03,Agama a. distanti,alive,D1,3,bucket,NA,NA,yes,D1,adult,NA
+2005-10-02,Agama aculeata distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
+2005-10-03,Agama aculeata distanti,alive,D1,3,bucket,NA,NA,yes,D1,adult,NA
 2005-10-03,Gerrhosaurus flavigularis,alive,6C,2,bucket,NA,NA,no,NA,adult,NA
 2005-10-03,Gerrhosaurus flavigularis,alive,Z1,0,bucket,NA,NA,no,NA,adult,NA
 2005-10-03,Leptotyphlops incognitus,alive,6C,0,bucket,NA,NA,NA,NA,juvenile,NA
 2005-10-03,Trachylepis capensis,alive,D2,0,bucket,NA,NA,no,NA,adult,NA
 2005-10-03,Trachylepis capensis,alive,13B,1,bucket,NA,NA,yes,13B,adult,yes
-2005-10-04,Agama a. distanti,alive,13A,2,bucket,NA,NA,no,NA,juvenile,NA
-2005-10-04,Agama a. distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
+2005-10-04,Agama aculeata distanti,alive,13A,2,bucket,NA,NA,no,NA,juvenile,NA
+2005-10-04,Agama aculeata distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
 2005-10-04,Trachylepis varia,alive,D1,2,funnel,3,blue,no,NA,adult,NA
 2005-10-04,Trachylepis capensis,alive,D3,0,bucket,NA,NA,yes,D3,adult,NA
 2005-10-04,Gerrhosaurus flavigularis,alive,6C,0,bucket,NA,NA,no,NA,adult,NA
@@ -75,9 +75,9 @@ date,species,alive,trap_site,arm,trap_type,trap_position,fence_colour,recapture,
 2005-10-10,Trachylepis capensis,alive,6C,2,bucket,NA,NA,no,NA,adult,NA
 2005-10-10,Trachylepis capensis,alive,Z2,1,bucket,NA,NA,no,NA,adult,NA
 2005-10-10,Gerrhosaurus flavigularis,alive,D2,3,bucket,NA,NA,no,NA,adult,NA
-2005-10-10,Agama a. distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
-2005-10-10,Agama a. distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
-2005-10-10,Agama a. distanti,alive,D1,0,bucket,NA,NA,no,NA,adult,NA
+2005-10-10,Agama aculeata distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
+2005-10-10,Agama aculeata distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
+2005-10-10,Agama aculeata distanti,alive,D1,0,bucket,NA,NA,no,NA,adult,NA
 2005-10-10,Gerrhosaurus flavigularis,alive,13C,1,bucket,NA,NA,no,NA,adult,NA
 2005-10-10,Gerrhosaurus flavigularis,alive,13C,4,bucket,NA,NA,yes,13C,juvenile,NA
 2005-10-10,Trachylepis capensis,alive,13A,4,funnel,7,black,no,NA,juvenile,NA
@@ -88,21 +88,21 @@ date,species,alive,trap_site,arm,trap_type,trap_position,fence_colour,recapture,
 2005-10-11,Trachylepis capensis,alive,6B,0,bucket,NA,NA,no,NA,adult,NA
 2005-10-11,Leptotyphlops incognitus,alive,6B,4,bucket,NA,NA,NA,NA,adult,NA
 2005-10-12,Gerrhosaurus flavigularis,alive,6B,2,bucket,NA,NA,no,NA,adult,NA
-2005-10-12,Agama a. distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
-2005-10-12,Agama a. distanti,alive,D1,2,bucket,NA,NA,yes,D1,adult,NA
-2005-10-12,Agama a. distanti,alive,D1,4,bucket,NA,NA,yes,D1,adult,NA
+2005-10-12,Agama aculeata distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
+2005-10-12,Agama aculeata distanti,alive,D1,2,bucket,NA,NA,yes,D1,adult,NA
+2005-10-12,Agama aculeata distanti,alive,D1,4,bucket,NA,NA,yes,D1,adult,NA
 2005-10-12,Gerrhosaurus flavigularis,alive,13C,1,bucket,NA,NA,yes,13C,adult,NA
-2005-10-13,Agama a. distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
+2005-10-13,Agama aculeata distanti,alive,D1,0,bucket,NA,NA,yes,D1,adult,NA
 2005-10-13,Gerrhosaurus flavigularis,alive,D3,1,bucket,NA,NA,no,NA,adult,NA
 2005-10-13,Trachylepis capensis,dead,6B,3,funnel,5,black,no,NA,adult,NA
 2005-10-14,Trachylepis capensis,alive,13A,0,bucket,NA,NA,yes,13A,juvenile,yes
-2005-10-14,Agama a. distanti,alive,13A,1,bucket,NA,NA,yes,13A,juvenile,NA
+2005-10-14,Agama aculeata distanti,alive,13A,1,bucket,NA,NA,yes,13A,juvenile,NA
 2005-10-14,Gerrhosaurus flavigularis,alive,13C,4,bucket,NA,NA,yes,13C,adult,NA
 2005-10-14,Trachylepis capensis,alive,D1,3,bucket,NA,NA,no,NA,adult,NA
 2005-10-17,Gerrhosaurus flavigularis,alive,13C,1,funnel,2,blue,yes,13C,adult,NA
-2005-10-17,Agama a. atra,alive,13C,4,bucket,NA,NA,no,NA,juvenile,NA
+2005-10-17,Agama atra atra,alive,13C,4,bucket,NA,NA,no,NA,juvenile,NA
 2005-10-17,Psammophis crucifer,alive,D1,1,funnel,2,black,NA,NA,adult,NA
-2005-10-17,Agama a. distanti,dead,D1,1,funnel,2,black,yes,D1,adult,NA
+2005-10-17,Agama aculeata distanti,dead,D1,1,funnel,2,black,yes,D1,adult,NA
 2005-10-17,Gerrhosaurus flavigularis,alive,D2,4,bucket,NA,NA,no,NA,adult,yes
 2005-10-17,Gerrhosaurus flavigularis,alive,D3,1,bucket,NA,NA,no,NA,adult,yes
 2005-10-17,Gerrhosaurus flavigularis,alive,D3,1,bucket,NA,NA,no,NA,adult,NA
@@ -121,7 +121,7 @@ date,species,alive,trap_site,arm,trap_type,trap_position,fence_colour,recapture,
 2005-10-21,Psammophis crucifer,alive,13B,1,funnel,2,black,NA,NA,adult,NA
 2005-10-21,Psammophis crucifer,alive,13B,1,funnel,2,black,NA,NA,adult,NA
 2005-10-21,Lamprophis capensis,alive,13C,0,bucket,NA,NA,NA,NA,juvenile,NA
-2005-10-21,Agama a. distanti,alive,D3,0,bucket,NA,NA,no,NA,adult,NA
+2005-10-21,Agama aculeata distanti,alive,D3,0,bucket,NA,NA,no,NA,adult,NA
 2005-10-21,Gerrhosaurus flavigularis,alive,D3,1,bucket,NA,NA,no,NA,juvenile,NA
 2005-10-22,Hemachatus haemachatus,dead,13B,2,funnel,3,black,NA,NA,juvenile,NA
 2005-10-22,Trachylepis capensis,alive,6C,2,bucket,NA,NA,no,NA,adult,yes
@@ -133,7 +133,7 @@ date,species,alive,trap_site,arm,trap_type,trap_position,fence_colour,recapture,
 2005-10-25,Gerrhosaurus flavigularis,alive,Z2,0,bucket,NA,NA,no,NA,adult,yes
 2005-10-25,Gerrhosaurus flavigularis,alive,Z2,3,bucket,NA,NA,no,NA,juvenile,NA
 2005-10-25,Psammophis crucifer,alive,6B,3,funnel,5,black,NA,NA,adult,NA
-2005-10-26,Agama a. distanti,alive,13A,0,bucket,NA,NA,no,NA,adult,NA
+2005-10-26,Agama aculeata distanti,alive,13A,0,bucket,NA,NA,no,NA,adult,NA
 2005-10-27,Gerrhosaurus flavigularis,alive,6B,0,bucket,NA,NA,no,NA,juvenile,NA
 2005-10-28,Gerrhosaurus flavigularis,alive,13B,0,bucket,NA,NA,no,NA,adult,NA
 2005-10-28,Trachylepis capensis,alive,13B,4,funnel,7,black,yes,13B,adult,NA
@@ -144,7 +144,7 @@ date,species,alive,trap_site,arm,trap_type,trap_position,fence_colour,recapture,
 2005-10-29,Gerrhosaurus flavigularis,alive,6A,1,bucket,NA,NA,no,NA,adult,NA
 2005-10-31,Gerrhosaurus flavigularis,alive,D3,3,bucket,NA,NA,yes,D3,adult,NA
 2005-10-31,Gerrhosaurus flavigularis,alive,D3,3,bucket,NA,NA,no,NA,adult,yes
-2005-10-31,Agama a. distanti,alive,D3,3,bucket,NA,NA,no,NA,adult,NA
+2005-10-31,Agama aculeata distanti,alive,D3,3,bucket,NA,NA,no,NA,adult,NA
 2005-10-31,Trachylepis capensis,alive,6C,0,bucket,NA,NA,no,NA,juvenile,NA
 2005-11-01,Gerrhosaurus flavigularis,alive,D3,4,bucket,NA,NA,yes,D3,adult,NA
 2005-11-01,Gerrhosaurus flavigularis,alive,Z3,3,bucket,NA,NA,no,NA,juvenile,NA
@@ -172,7 +172,7 @@ date,species,alive,trap_site,arm,trap_type,trap_position,fence_colour,recapture,
 2005-11-15,Trachylepis capensis,alive,13C,1,funnel,2,blue,no,NA,adult,NA
 2005-11-17,Trachylepis capensis,alive,13C,0,bucket,NA,NA,no,NA,juvenile,NA
 2005-11-17,Trachylepis capensis,alive,D1,1,bucket,NA,NA,no,NA,adult,yes
-2005-11-17,Agama a. distanti,alive,D1,3,bucket,NA,NA,yes,D1,adult,NA
+2005-11-17,Agama aculeata distanti,alive,D1,3,bucket,NA,NA,yes,D1,adult,NA
 2005-11-17,Trachylepis capensis,alive,D2,3,bucket,NA,NA,no,NA,adult,NA
 2005-11-17,Trachylepis capensis,alive,Z2,2,bucket,NA,NA,no,NA,adult,yes
 2005-11-17,Trachylepis capensis,alive,6B,2,bucket,NA,NA,no,NA,adult,NA
@@ -181,7 +181,7 @@ date,species,alive,trap_site,arm,trap_type,trap_position,fence_colour,recapture,
 2005-11-17,Trachylepis capensis,alive,6A,0,bucket,NA,NA,no,NA,adult,yes
 2005-11-18,Trachylepis capensis,alive,D1,1,bucket,NA,NA,yes,D1,adult,yes
 2005-11-18,Trachylepis capensis,alive,D1,1,bucket,NA,NA,no,NA,adult,NA
-2005-11-18,Agama a. distanti,alive,D1,2,bucket,NA,NA,yes,D1,adult,NA
+2005-11-18,Agama aculeata distanti,alive,D1,2,bucket,NA,NA,yes,D1,adult,NA
 2005-11-18,Trachylepis capensis,alive,D1,3,bucket,NA,NA,no,NA,juvenile,NA
 2005-11-21,Trachylepis capensis,dead,13A,0,bucket,NA,NA,no,NA,adult,yes
 2005-11-21,Trachylepis capensis,alive,13B,2,bucket,NA,NA,no,NA,adult,NA
@@ -206,7 +206,7 @@ date,species,alive,trap_site,arm,trap_type,trap_position,fence_colour,recapture,
 2005-12-04,Bitis arietans arietans,alive,13A,4,funnel,8,black,NA,NA,juvenile,NA
 2005-12-04,Trachylepis capensis,alive,13B,0,bucket,NA,NA,no,NA,adult,NA
 2005-12-04,Gerrhosaurus flavigularis,alive,13C,0,bucket,NA,NA,no,NA,juvenile,NA
-2005-12-04,Agama a. distanti,alive,D1,2,bucket,NA,NA,yes,D1,adult,NA
+2005-12-04,Agama aculeata distanti,alive,D1,2,bucket,NA,NA,yes,D1,adult,NA
 2005-12-04,Trachylepis capensis,alive,D2,4,bucket,NA,NA,yes,D2,adult,NA
 2005-12-04,Trachylepis capensis,alive,D3,3,bucket,NA,NA,no,NA,adult,yes
 2005-12-04,Trachylepis capensis,alive,D3,3,bucket,NA,NA,no,NA,adult,yes
