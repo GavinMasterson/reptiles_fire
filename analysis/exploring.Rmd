@@ -9,8 +9,8 @@ editor_options:
 
 ```{r setup, message = FALSE}
 library(tidyverse)
-library(here)
 library(lubridate)
+library(here)
 
 data <- read_csv(here("/data/clean_data.csv")) %>% 
            mutate(date = as_date(date),
@@ -32,6 +32,7 @@ Determining the total number of species detected during this survey is an import
 
 ```{r total species}
 data %>% 
+  drop_na(species) %>% 
   summarise(total_species = n_distinct(species))
 ```
 
@@ -104,7 +105,7 @@ sitephase_summary %>%
 Incredibly, we see a near-perfect, 50-50 split of non-singleton days between the two phases for four of the species. 
 The  three species for which the split is not even are *P. wahlbergii* (pre 0:5 post), *A. a. distanti* (pre 2:0 post) and *H. haemachatus* (pre 0:1 post).
 Of these three species, only *A. a. distanti* is deserving of further consideration.
-Knowing that the species was infrequently captured during the survey - with zero captures in the post-treatment phase of the project - it is important to consider how much data could be lost if we reduce these non-singleton days to singletons for use in an 'any detection per day' formulation of our hierarchical model. 
+Knowing that the species was infrequently captured during the survey - with zero captures in the post-treatment phase of the project - it is important to consider how much data could be lost if we reduce these non-singleton days to singletons for use in an 'any detection per day' formulation of our hierarchical model.
 
 ```{r}
 sitephase_summary %>% 
@@ -112,8 +113,9 @@ sitephase_summary %>%
          species == "Agama a. distanti")
 ```
 
-As we see here, I captured three individuals at `D1` on both of the non-singleton days, which were only two days apart in October 2005.
-This means that six of the 25 detections of this species (24 %) would be reduced to two detections using a 'detection per site per day' approach.
+This shows that I captured three individuals at `D1` on both of the non-singleton days, which were only two days apart in October 2005.
+This means that six detections of *A. a. distanti* would be reduced to two detections using a 'detection per site per day' approach, and reduce the total number of detections from 25 to 21 - a 16 percent reduction.
+
 
 
 

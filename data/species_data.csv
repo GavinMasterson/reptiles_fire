@@ -1,21 +1,21 @@
-species
-Agama aculeata distanti
-Agama atra atra
-Aparallactus capensis
-Bitis arietans arietans
-Causus rhombeatus
-Dasypeltis scabra
-Duberria lutrix
-Gerrhosaurus flavigularis
-Hemachatus haemachatus
-Lamprophis aurora
-Lamprophis capensis
-Leptotyphlops sp.
-Lycophidion capense
-Panaspis wahlbergii
-Psammophis crucifer
-Psammophylax rhombeatus
-Pseudaspis cana
-Trachylepis capensis
-Trachylepis varia
-Typhlops bibronii
+taxonomy_2006,taxonomicStatus,genus_ITIS,specificEpithet_ITIS,vernacularName,taxonID,taxonRank,acceptedNameUsageID,update_date,kingdom,phylum,class,order,family,infraspecificEpithet
+Agama aculeata distanti,accepted,NA,NA,Ground Agama,ITIS:1056978,subspecies,ITIS:1056978,NA,NA,NA,NA,NA,NA,NA
+Agama atra atra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Aparallactus capensis,accepted,Aparallactus,capensis,Cape Centipede Eater,ITIS:700351,species,ITIS:700351,NA,Animalia,Chordata,Reptilia,Squamata,Lamprophiidae,NA
+Bitis arietans arietans,accepted,NA,NA,NA,ITIS:635232,subspecies,ITIS:635232,NA,NA,NA,NA,NA,NA,NA
+Causus rhombeatus,accepted,Causus,rhombeatus,Rhombic Night Adder,ITIS:634840,species,ITIS:634840,NA,Animalia,Chordata,Reptilia,Squamata,Viperidae,NA
+Dasypeltis scabra,accepted,Dasypeltis,scabra,Rhombic Egg Eater,ITIS:1081718,species,ITIS:1081718,NA,Animalia,Chordata,Reptilia,Squamata,Colubridae,NA
+Duberria lutrix,accepted,Duberria,lutrix,Common Slug Eater,ITIS:1081789,species,ITIS:1081789,NA,Animalia,Chordata,Reptilia,Squamata,Lamprophiidae,NA
+Gerrhosaurus flavigularis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Hemachatus haemachatus,accepted,Hemachatus,haemachatus,Rinkhals,ITIS:700513,species,ITIS:700513,NA,Animalia,Chordata,Reptilia,Squamata,Elapidae,NA
+Lamprophis aurora,accepted,Lamprophis,aurora,Aurora House Snake,ITIS:1081913,species,ITIS:1081913,NA,Animalia,Chordata,Reptilia,Squamata,Lamprophiidae,NA
+Lamprophis capensis,synonym,Boaedon,capensis,Brown House Snake,ITIS:1082676,species,ITIS:1082810,NA,Animalia,Chordata,Reptilia,Squamata,Lamprophiidae,NA
+Leptotyphlops sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Lycophidion capense,accepted,Lycophidion,capense,Cape Wolf Snake,ITIS:1082033,species,ITIS:1082033,NA,Animalia,Chordata,Reptilia,Squamata,Lamprophiidae,NA
+Panaspis wahlbergii,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Psammophis crucifer,accepted,Psammophis,crucifer,Montane Grass Snake,ITIS:1082246,species,ITIS:1082246,NA,Animalia,Chordata,Reptilia,Squamata,Lamprophiidae,NA
+Psammophylax rhombeatus,accepted,Psammophylax,rhombeatus,Spotted Skaapsteker,ITIS:1082253,species,ITIS:1082253,NA,Animalia,Chordata,Reptilia,Squamata,Lamprophiidae,NA
+Pseudaspis cana,accepted,Pseudaspis,cana,Mole Snake,ITIS:1082257,species,ITIS:1082257,NA,Animalia,Chordata,Reptilia,Squamata,Lamprophiidae,NA
+Trachylepis capensis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Trachylepis varia,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Typhlops bibronii,synonym,Afrotyphlops,bibronii,NA,ITIS:634599,species,ITIS:1116090,NA,Animalia,Chordata,Reptilia,Squamata,Typhlopidae,NA
