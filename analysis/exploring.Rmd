@@ -7,6 +7,13 @@ editor_options:
   chunk_output_type: console
 ---
 
+## **Introduction**
+
+The raw data from my survey have been captured, cleaned and are now ready to be viewed for different insights.
+As the survey was quite complex from a methodological and practical perspective, I will now produce summaries and visualisations of the relevant survey components and variables.
+These will help me in determining any issues that may influence my desired analysis path.
+Keeping with best practice, we first load the required `R` packages and the `data` we will use for all of exploratory analysis.
+
 ```{r setup, message = FALSE}
 library(tidyverse)
 library(lubridate)
@@ -17,12 +24,6 @@ data <- read_csv(here("/data/clean_data.csv")) %>%
                          arm = as_factor(arm),
                          block = as_factor(block))
 ```
-
-## **Introduction**
-
-The raw data from my survey have been captured, cleaned and are now ready to be viewed for different insights.
-As the survey was quite complex from a methodological and practical perspective, I will now produce summaries and visualisations of the relevant survey components and variables.
-These will help me in determining any issues that may influence my desired analysis path.
 
 #### **The total number of species detected during the survey**
 
@@ -43,6 +44,28 @@ This survey aimed to understand the effects of disturbance on the local assembla
 Secondly, there is no reason to expect that all 40 species that have ever been recorded in Suikerbosrand Nature Reserve are still present in the reserve. 
 The most intense survey of the reserve was conducted by Niels Jacobsen in the 1980's and the surrounding area, now called Gauteng Province, has undergone rapid intensification of land use in the past 30+ years.
 Therefore, the positive view of this survey is that we can confidently say that at least 21 reptile species still occur in Suikerbosrand Nature Reserve.
+
+#### **The total number of captures per day when traps were checked**
+
+```{r total captures per day}
+zero_dates <- data[which(is.na(data$species) == TRUE), 1:2] %>%
+  mutate(total_captures = as.integer(0))
+
+data %>%
+  drop_na(species) %>% 
+  group_by(date, phase, trap_type) %>% 
+  summarise(total_captures = n()) %>%
+  full_join(zero_dates) %>%
+  arrange(date) %>% 
+  ggplot(., mapping = aes(x = date,
+                          y = total_captures)) +
+    geom_col(aes(colour = trap_type,
+                 fill = trap_type)) +
+    xlab("Date")  +
+    guides(x = guide_axis(angle = 90)) +
+    ylab("Total captures") 
+```
+
 
 #### **The total number of detections per species**
 

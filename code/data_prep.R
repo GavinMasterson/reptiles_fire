@@ -40,21 +40,29 @@ clean_data <- read_csv(here("/data/clean_data.csv"))
 
 # Trap site
 trapsite_data <- clean_data %>%
-  select(trap_site, block, lat, long) %>%
+  select(trap_site,
+         block,
+         lat,
+         long) %>%
   distinct() %>%
   drop_na() %>%
+  arrange(block) %>%
   write_csv(here("/data/trapsite_data.csv"))
 
 # Project phase
 phase_data <- clean_data %>%
-  select(date, phase) %>%
+  select(date,
+         phase) %>%
   distinct() %>%
   arrange(date) %>%
   write_csv(here("/data/phase_data.csv"))
 
 # Capture data
 capture_data <- clean_data %>%
-  select(-phase, -block, -treatment, -lat, -long) %>%
+  select(-block,
+         -treatment,
+         -lat,
+         -long) %>%
   drop_na(species) %>%
   write_csv(here("/data/capture_data.csv"))
 
@@ -66,7 +74,7 @@ species_data <- clean_data %>%
   arrange(species) %>%
   as.matrix() %>%
   as.character() %>%
-  # The filter_name function only works on a character vector so we convert it for this function
+  # The filter_name function only works on a character vector so we convert it at this point
   filter_name() %>%
   select(taxonomy_2006 = input,
          taxonomicStatus,
@@ -80,5 +88,4 @@ species_data <- clean_data %>%
 
 # TODO: Need to figure out how to deal with treatment and the dates the traps weren't checked.
 # Plotting time series of days using a dataset of dates checked and not-checked would allow for visualising the zero detection days from the not-checked days.
-
 
