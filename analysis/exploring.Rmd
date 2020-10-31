@@ -14,7 +14,7 @@ As the survey was quite complex from a methodological and practical perspective,
 These will help me in determining any issues that may influence my desired analysis path.
 Keeping with best practice, we first load the required `R` packages and the `data` we will use for all of exploratory analysis.
 
-```{r setup, message = FALSE}
+```{r setup, message = FALSE, echo = TRUE}
 library(tidyverse)
 library(lubridate)
 library(here)
@@ -54,36 +54,39 @@ zero_dates <- data[which(is.na(data$species) == TRUE), 1:2] %>%
 data %>%
   drop_na(species) %>% 
   group_by(date, phase, trap_type) %>% 
-  summarise(total_captures = n()) %>%
+  summarise(total_captures = n(),
+            .groups = "drop") %>%
   full_join(zero_dates) %>%
   arrange(date) %>% 
   ggplot(., mapping = aes(x = date,
                           y = total_captures)) +
-    geom_col(aes(colour = trap_type,
-                 fill = trap_type)) +
+    geom_col(aes(fill = trap_type)) +
     xlab("Date")  +
     guides(x = guide_axis(angle = 90)) +
-    ylab("Total captures") 
+    ylab("Total captures") +
+    labs(fill = "Trap type") +
+    scale_fill_discrete(na.translate=FALSE)
 ```
-
 
 #### **The total number of detections per species**
 
 ```{r captures per species}
 data %>%
   drop_na(species) %>% 
-  group_by(species,phase) %>% 
+  group_by(species, phase) %>% 
   summarise(total_captures = n(),
             .groups = "drop_last") %>% 
   arrange(species) %>% 
-  ggplot(., mapping = aes(x = species, 
+  #Need to re-order the presentation on the x-axis. 
+  ggplot(., mapping = aes(x = species,
                           y = total_captures)) +
-    geom_col(aes(colour = phase,
-                 fill = phase),
+    geom_col(aes(fill = phase),
              position = position_dodge()) +
     xlab("Species") +
     guides(x = guide_axis(angle = 90)) +
-    ylab("Total captures") 
+    ylab("Total captures") +
+    labs(fill = "Phase") +
+    scale_fill_discrete(guide = guide_legend(reverse=TRUE))
 ```
 
 #### **The total number of species detected at each site**
@@ -97,7 +100,7 @@ sitephase_summary <- data %>%
 #### **Species captures per site per day**
 
 One of the considerations when using hierarchical models is whether to use detection or abundance data to model species occupancy.
-Reptiles do not have to be active every day like mammals, which means that they are unlikely to encounter the trap arrays on a daily basis. 
+Reptiles do not have to be active every day like mammals, which means that there are unlikely to be multiple encounters with trap arrays on a daily basis. 
 As a result, I expected to catch just a single individual per trap array per day of checking.
 
 ```{r}
@@ -132,8 +135,17 @@ Knowing that the species was infrequently captured during the survey - with zero
 
 ```{r}
 sitephase_summary %>% 
-  filter(count_per_day > 1, 
-         species == "Agama a. distanti")
+  filter(species == "Agama aculeata distanti") %>% 
+  ggplot(., mapping = aes(x = date,
+                          y = count_per_day)) +
+    geom_col(aes(fill = trap_site),
+             position = "dodge") +
+    xlab("Date")  +
+    guides(x = guide_axis(angle = 90)) +
+    ylab("Total captures") +
+    labs(fill = "Trap site")
+    
+
 ```
 
 This shows that I captured three individuals at `D1` on both of the non-singleton days, which were only two days apart in October 2005.
