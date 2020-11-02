@@ -21,8 +21,9 @@ library(here)
 
 data <- read_csv(here("/data/clean_data.csv")) %>% 
            mutate(date = as_date(date),
-                         arm = as_factor(arm),
-                         block = as_factor(block))
+                  arm = as_factor(arm),
+                  block = as_factor(block),
+                  phase = factor(phase, levels = c("pre-treatment", "post-treatment")))
 ```
 
 #### **The total number of species detected during the survey**
@@ -77,7 +78,6 @@ data %>%
   summarise(total_captures = n(),
             .groups = "drop_last") %>% 
   arrange(species) %>% 
-  #Need to re-order the presentation on the x-axis. 
   ggplot(., mapping = aes(x = species,
                           y = total_captures)) +
     geom_col(aes(fill = phase),
@@ -85,8 +85,7 @@ data %>%
     xlab("Species") +
     guides(x = guide_axis(angle = 90)) +
     ylab("Total captures") +
-    labs(fill = "Phase") +
-    scale_fill_discrete(guide = guide_legend(reverse=TRUE))
+    labs(fill = "Phase")
 ```
 
 #### **The total number of species detected at each site**
