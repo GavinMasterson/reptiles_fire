@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Gavin Masterson" />
+
+<meta name="date" content="2020-10-12" />
+
+<title>Having some fun exploring</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<link rel="icon" href="https://github.com/workflowr/workflowr-assets/raw/master/img/reproducible.png">
+<!-- Add a small amount of space between sections. -->
+<style type="text/css">
+div.section {
+  padding-top: 12px;
+}
+</style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">reptiles_fire</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="license.html">License</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Having some fun exploring</h1>
+<h4 class="author">Gavin Masterson</h4>
+<h4 class="date">2020-10-12</h4>
+
+</div>
+
+
+<p>
+<button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
+<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span>
+</button>
+</p>
+<div id="workflowr-report" class="collapse">
+<ul class="nav nav-tabs">
+<li class="active">
+<a data-toggle="tab" href="#summary">Summary</a>
+</li>
+<li>
+<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> </a>
+</li>
+<li>
+<a data-toggle="tab" href="#versions">Past versions</a>
+</li>
+</ul>
+<div class="tab-content">
+<div id="summary" class="tab-pane fade in active">
+<p>
+<strong>Last updated:</strong> 2020-11-08
+</p>
+<p>
+<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 6 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 1
+</p>
+<p>
+<strong>Knit directory:</strong> <code>reptiles_fire/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
+</p>
+<p>
+This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis was created with <a
+  href="https://github.com/jdblischak/workflowr">workflowr</a> (version 1.6.2). The <em>Checks</em> tab describes the reproducibility checks that were applied when the results were created. The <em>Past versions</em> tab lists the development history.
+</p>
+<hr>
+</div>
+<div id="checks" class="tab-pane fade">
+<div id="workflowr-checks" class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguncommittedchanges"> <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> <strong>R Markdown file:</strong> uncommitted changes </a>
+</p>
+</div>
+<div id="strongRMarkdownfilestronguncommittedchanges" class="panel-collapse collapse">
+<div class="panel-body">
+<p>The R Markdown file has unstaged changes. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongEnvironmentstrongempty"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Environment:</strong> empty </a>
+</p>
+</div>
+<div id="strongEnvironmentstrongempty" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Great job! The global environment was empty. Objects defined in the global environment can affect the analysis in your R Markdown file in unknown ways. For reproduciblity it’s best to always run the code in an empty environment.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongSeedstrongcodesetseed20201010code"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Seed:</strong> <code>set.seed(20201010)</code> </a>
+</p>
+</div>
+<div id="strongSeedstrongcodesetseed20201010code" class="panel-collapse collapse">
+<div class="panel-body">
+<p>The command <code>set.seed(20201010)</code> was run prior to running the code in the R Markdown file. Setting a seed ensures that any results that rely on randomness, e.g. subsampling or permutations, are reproducible.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongSessioninformationstrongrecorded"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Session information:</strong> recorded </a>
+</p>
+</div>
+<div id="strongSessioninformationstrongrecorded" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Great job! Recording the operating system, R version, and package versions is critical for reproducibility.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongCachestrongnone"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Cache:</strong> none </a>
+</p>
+</div>
+<div id="strongCachestrongnone" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Nice! There were no cached chunks for this analysis, so you can be confident that you successfully produced the results during this run.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongFilepathsstrongrelative"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>File paths:</strong> relative </a>
+</p>
+</div>
+<div id="strongFilepathsstrongrelative" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Great job! Using relative paths to the files within your workflowr project makes it easier to run your code on other machines.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomGavinMastersonreptilesfiretreedb7c3fdcc61505ca451c1c56d9ced49f2760021ftargetblankdb7c3fda"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/GavinMasterson/reptiles_fire/tree/db7c3fdcc61505ca451c1c56d9ced49f2760021f" target="_blank">db7c3fd</a> </a>
+</p>
+</div>
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomGavinMastersonreptilesfiretreedb7c3fdcc61505ca451c1c56d9ced49f2760021ftargetblankdb7c3fda" class="panel-collapse collapse">
+<div class="panel-body">
+<p>
+Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
+</p>
+<p>
+The results in this page were generated with repository version <a href="https://github.com/GavinMasterson/reptiles_fire/tree/db7c3fdcc61505ca451c1c56d9ced49f2760021f" target="_blank">db7c3fd</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+</p>
+<p>
+Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
+</p>
+<pre><code>
+Ignored files:
+    Ignored:    .Rproj.user/
+    Ignored:    data/2019_common_itis.tsv.bz2
+    Ignored:    data/2019_dwc_itis.tsv.bz2
+    Ignored:    data/database/
+
+Unstaged changes:
+    Modified:   analysis/exploring.Rmd
+
+</code></pre>
+<p>
+Note that any generated files, e.g. HTML, png, CSS, etc., are not included in this status report because it is ok for generated content to have uncommitted changes.
+</p>
+</div>
+</div>
+</div>
+</div>
+<hr>
+</div>
+<div id="versions" class="tab-pane fade">
+
+<p>
+These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/exploring.Rmd</code>) and HTML (<code>docs/exploring.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
+</p>
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+File
+</th>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+<th>
+Message
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/GavinMasterson/reptiles_fire/blob/db7c3fdcc61505ca451c1c56d9ced49f2760021f/analysis/exploring.Rmd" target="_blank">db7c3fd</a>
+</td>
+<td>
+GavinMasterson
+</td>
+<td>
+2020-11-08
+</td>
+<td>
+commit before first test build
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/GavinMasterson/reptiles_fire/blob/3bf07482dbf35c53a2cac1bd7c013462d50eb62e/analysis/exploring.Rmd" target="_blank">3bf0748</a>
+</td>
+<td>
+GavinMasterson
+</td>
+<td>
+2020-11-02
+</td>
+<td>
+ordered phase levels for plotting, need to add 0 columns for no captures per species per
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/GavinMasterson/reptiles_fire/blob/eb0fa4404ea876ca31a5de97c1a51fdd126a3ee9/analysis/exploring.Rmd" target="_blank">eb0fa44</a>
+</td>
+<td>
+GavinMasterson
+</td>
+<td>
+2020-10-31
+</td>
+<td>
+tinkering with dataviz
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/GavinMasterson/reptiles_fire/blob/bc1e761af5601ea3bd8fff5c48101aa923678ed8/analysis/exploring.Rmd" target="_blank">bc1e761</a>
+</td>
+<td>
+GavinMasterson
+</td>
+<td>
+2020-10-28
+</td>
+<td>
+moved code from dataprep.R to exploring.Rmd as it is actually an analysis
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/GavinMasterson/reptiles_fire/blob/41804952c9754c4a791002ca31c71be555f90eea/analysis/exploring.Rmd" target="_blank">4180495</a>
+</td>
+<td>
+GavinMasterson
+</td>
+<td>
+2020-10-27
+</td>
+<td>
+finished the species_data file code and streamlined the code
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/GavinMasterson/reptiles_fire/blob/db14405b30471b877387fed43f7b22ee8b024d61/analysis/exploring.Rmd" target="_blank">db14405</a>
+</td>
+<td>
+GavinMasterson
+</td>
+<td>
+2020-10-18
+</td>
+<td>
+lots of data cleaning and normalising (separating dfs)
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/GavinMasterson/reptiles_fire/blob/938e64a2422e309dcfeec69dd3ae88ec2d419e64/analysis/exploring.Rmd" target="_blank">938e64a</a>
+</td>
+<td>
+GavinMasterson
+</td>
+<td>
+2020-10-15
+</td>
+<td>
+working on ggplots to visualise summary data
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/GavinMasterson/reptiles_fire/blob/39e995f0e149a7bf937513d4d3cf087954b0b0eb/analysis/exploring.Rmd" target="_blank">39e995f</a>
+</td>
+<td>
+GavinMasterson
+</td>
+<td>
+2020-10-14
+</td>
+<td>
+updates to exploring.Rmd
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/GavinMasterson/reptiles_fire/blob/db7d9889c8e6a50a35ef89883712718b7bec8548/analysis/exploring.Rmd" target="_blank">db7d988</a>
+</td>
+<td>
+GavinMasterson
+</td>
+<td>
+2020-10-12
+</td>
+<td>
+building the first Rmd doc
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+</div>
+</div>
+</div>
+<div id="introduction" class="section level2">
+<h2><strong>Introduction</strong></h2>
+<p>The raw data from my survey have been captured, cleaned and are now ready for exploratory analysis. As the survey was quite complex from a methodological and practical perspective, I will produce summaries and visualisations of the relevant survey components and variables. These summaries will help me in identifying any issues that may influence my desired analysis path. Keeping with best practice, we first load the required <code>R</code> packages and the <code>data</code> we will use for the exploratory analysis.</p>
+<pre class="r"><code>library(tidyverse)
+library(lubridate)
+library(here)
+
+data &lt;- read_csv(here(&quot;/data/clean_data.csv&quot;)) %&gt;%
+    mutate_if(is.character, as.factor) %&gt;%
+    mutate(date = as_date(date),
+           arm = as_factor(arm),
+           block = as_factor(block),
+           phase = factor(phase, levels = c(&quot;pre-treatment&quot;, &quot;post-treatment&quot;)))</code></pre>
+<div id="the-total-number-of-species-detected-during-the-survey" class="section level4">
+<h4><strong>The total number of species detected during the survey</strong></h4>
+<p>Suikerbosrand Nature Reserve has been surveyed for reptiles several times since its proclamation in 1973 e.g. Jacobsen <em>et al.</em> (1986) and Masterson <em>et al.</em> (2008). From these surveys, we know that there are approximately 40 species of reptile that have ever been recorded in or near Suikerbosrand Nature Reserve since 1973. Determining the total number of species detected during this survey is an important first step in gauging the general success of the survey.</p>
+<pre class="r"><code>data %&gt;% 
+  drop_na(species) %&gt;% 
+  summarise(total_species = n_distinct(species))</code></pre>
+<pre><code># A tibble: 1 x 1
+  total_species
+          &lt;int&gt;
+1            20</code></pre>
+<p>Twenty species is just half of the estimated 40 reptile species that might be present in the reserve, so how well did we really do? While we might have hoped to capture a greater number of the species, there are two reasons that we need not be too concerned with only having caught 21 species. Firstly, the survey was not aiming to catch all the species in the reserve. This survey aimed to understand the effects of disturbance on the local assemblages in one type of habitat - open grassland. Secondly, there is no reason to expect that all 40 species that have ever been recorded in Suikerbosrand Nature Reserve are still present in the reserve. The most intense survey of the reserve was conducted by Niels Jacobsen in the 1980’s and the surrounding area, now called Gauteng Province, has undergone rapid intensification of land use in the past 30+ years. Therefore, the positive view of this survey is that we can confidently say that at least 21 reptile species still occur in Suikerbosrand Nature Reserve.</p>
+</div>
+<div id="the-total-number-of-captures-per-day-when-traps-were-checked" class="section level4">
+<h4><strong>The total number of captures per day when traps were checked</strong></h4>
+<pre class="r"><code>zero_dates &lt;- data[which(is.na(data$species) == TRUE), 1:2] %&gt;%
+  mutate(total_captures = as.integer(0))
+
+data %&gt;%
+  drop_na(species) %&gt;% 
+  group_by(date, phase, trap_type) %&gt;% 
+  summarise(total_captures = n(),
+            .groups = &quot;drop&quot;) %&gt;%
+  full_join(zero_dates) %&gt;%
+  arrange(date) %&gt;% 
+  ggplot(., mapping = aes(x = date,
+                          y = total_captures)) +
+    geom_col(aes(fill = trap_type)) +
+    xlab(&quot;Date&quot;)  +
+    guides(x = guide_axis(angle = 90)) +
+    ylab(&quot;Total captures&quot;) +
+    labs(fill = &quot;Trap type&quot;) +
+    scale_fill_discrete(na.translate=FALSE)</code></pre>
+<p><img src="figure/exploring.Rmd/total%20captures%20per%20day-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="the-total-number-of-detections-for-each-species-in-each-phase" class="section level4">
+<h4><strong>The total number of detections for each species in each phase</strong></h4>
+<pre class="r"><code>data %&gt;%
+  drop_na(species) %&gt;% 
+  count(species, 
+        phase,
+        .drop = FALSE,
+        name = &quot;total_captures&quot;) %&gt;%  
+  ggplot(., mapping = aes(x = species,
+                          y = total_captures)) +
+    geom_col(aes(fill = phase),
+             position = position_dodge()) +
+    xlab(&quot;Species&quot;) +
+    guides(x = guide_axis(angle = 90)) +
+    ylab(&quot;Total captures&quot;) +
+    labs(fill = &quot;Phase&quot;)</code></pre>
+<p><img src="figure/exploring.Rmd/captures%20per%20species-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="the-total-captures-of-each-species-detected-at-each-trap-site" class="section level4">
+<h4><strong>The total captures of each species detected at each trap site</strong></h4>
+<pre class="r"><code>sitephase_summary &lt;- data %&gt;% 
+  drop_na(species) %&gt;% 
+  count(trap_site,
+        species,
+        phase,
+        .drop = FALSE,
+        name = &quot;captures&quot;)
+
+sitephase_summary %&gt;% 
+  ggplot(mapping = aes(x = species,
+                       y = captures)) +
+  geom_col(aes(fill = phase),
+             position = &quot;stack&quot;) +
+    xlab(&quot;Species&quot;) +
+    guides(x = guide_axis(angle = 90)) +
+    ylab(&quot;Total captures&quot;) +
+    labs(fill = &quot;Phase&quot;) +
+    facet_wrap(&quot;trap_site&quot;,
+               nrow = 4,
+               scale = &quot;free_y&quot;)</code></pre>
+<p><img src="figure/exploring.Rmd/species%20captures%20per%20site-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="species-captures-per-site-per-day" class="section level4">
+<h4><strong>Species captures per site per day</strong></h4>
+<p>One of the considerations when using hierarchical models is whether to use detection or abundance data to model species occupancy. Reptiles do not have to be active every day like mammals, which means that there are unlikely to be multiple encounters with trap arrays on a daily basis. As a result, I expected to catch just a single individual per trap array per day of checking.</p>
+<pre class="r"><code>sitephaseday_summary &lt;- data %&gt;%
+  count(trap_site, 
+        species,
+        phase, 
+        date,
+        name = &quot;count_per_day&quot;)
+
+sitephaseday_summary %&gt;%
+  filter(count_per_day &gt; 1) %&gt;% 
+  group_by(species) %&gt;% 
+  summarise(count_of_non_singleton_days = n(),
+         max_captures = max(count_per_day)) %&gt;% 
+  arrange(desc(count_of_non_singleton_days))</code></pre>
+<pre><code># A tibble: 7 x 3
+  species                   count_of_non_singleton_days max_captures
+  &lt;fct&gt;                                           &lt;int&gt;        &lt;int&gt;
+1 Gerrhosaurus flavigularis                          20            5
+2 Trachylepis capensis                               15            3
+3 Panaspis wahlbergii                                 5            2
+4 Trachylepis varia                                   4            3
+5 Agama aculeata distanti                             2            3
+6 Psammophis crucifer                                 2            2
+7 Hemachatus haemachatus                              1            2</code></pre>
+<p>This summary shows me the seven species which did not match my expectation, in descending order of non-singleton days. The first five are the common lizard species in Suikerbosrand Nature Reserve, and the last two are snake species.</p>
+<p>One other question we might ask is whether or not the number of non-singleton days was different between the pre-treatment and post-treatment phases of the project.</p>
+<pre class="r"><code>sitephaseday_summary %&gt;% 
+  filter(count_per_day &gt; 1) %&gt;% 
+  group_by(species,phase) %&gt;% 
+  summarise(count_of_non_singleton_days = n(), 
+            .groups = &quot;drop&quot;) %&gt;% 
+  arrange(desc(count_of_non_singleton_days))</code></pre>
+<pre><code># A tibble: 11 x 3
+   species                   phase          count_of_non_singleton_days
+   &lt;fct&gt;                     &lt;fct&gt;                                &lt;int&gt;
+ 1 Gerrhosaurus flavigularis pre-treatment                           10
+ 2 Gerrhosaurus flavigularis post-treatment                          10
+ 3 Trachylepis capensis      pre-treatment                            8
+ 4 Trachylepis capensis      post-treatment                           7
+ 5 Panaspis wahlbergii       post-treatment                           5
+ 6 Agama aculeata distanti   pre-treatment                            2
+ 7 Trachylepis varia         pre-treatment                            2
+ 8 Trachylepis varia         post-treatment                           2
+ 9 Hemachatus haemachatus    post-treatment                           1
+10 Psammophis crucifer       pre-treatment                            1
+11 Psammophis crucifer       post-treatment                           1</code></pre>
+<p>Incredibly, we see a near-perfect, 50-50 split of non-singleton days between the two phases for four of the species. The three species for which the split is not even are <em>P. wahlbergii</em> (pre 0:5 post), <em>A. a. distanti</em> (pre 2:0 post) and <em>H. haemachatus</em> (pre 0:1 post). Of these three species, only <em>A. a. distanti</em> is deserving of further consideration. Knowing that the species was infrequently captured during the survey - with zero captures in the post-treatment phase of the project - it is important to consider how much data could be lost if we reduce these non-singleton days to singletons for use in an ‘any detection per day’ formulation of our hierarchical model.</p>
+<pre class="r"><code>sitephaseday_summary %&gt;% 
+  filter(species == &quot;Agama aculeata distanti&quot;) %&gt;% 
+  ggplot(., mapping = aes(x = date,
+                          y = count_per_day)) +
+    geom_col(aes(fill = trap_site),
+             position = &quot;dodge&quot;) +
+    xlab(&quot;Date&quot;)  +
+    guides(x = guide_axis(angle = 90)) +
+    ylab(&quot;Total captures&quot;) +
+    labs(fill = &quot;Trap site&quot;)</code></pre>
+<p><img src="figure/exploring.Rmd/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>This shows that I captured three individuals at <code>D1</code> on both of the non-singleton days, which were only two days apart in October 2005. This means that six detections of <em>A. a. distanti</em> would be reduced to two detections using a ‘detection per site per day’ approach, and reduce the total number of detections from 25 to 21 - a 16 percent reduction.</p>
+<br>
+<p>
+<button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
+<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Session information
+</button>
+</p>
+<div id="workflowr-sessioninfo" class="collapse">
+<pre class="r"><code>sessionInfo()</code></pre>
+<pre><code>R version 3.6.3 (2020-02-29)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 19041)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=English_United Kingdom.1252 
+[2] LC_CTYPE=English_United Kingdom.1252   
+[3] LC_MONETARY=English_United Kingdom.1252
+[4] LC_NUMERIC=C                           
+[5] LC_TIME=English_United Kingdom.1252    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] here_0.1        lubridate_1.7.9 forcats_0.5.0   stringr_1.4.0  
+ [5] dplyr_1.0.2     purrr_0.3.4     readr_1.3.1     tidyr_1.1.2    
+ [9] tibble_3.0.3    ggplot2_3.3.2   tidyverse_1.3.0 workflowr_1.6.2
+
+loaded via a namespace (and not attached):
+ [1] tidyselect_1.1.0 xfun_0.17        haven_2.3.1      colorspace_1.4-1
+ [5] vctrs_0.3.4      generics_0.0.2   htmltools_0.5.0  yaml_2.2.1      
+ [9] utf8_1.1.4       blob_1.2.1       rlang_0.4.7      later_1.1.0.1   
+[13] pillar_1.4.6     withr_2.2.0      glue_1.4.2       DBI_1.1.0       
+[17] dbplyr_1.4.4     modelr_0.1.8     readxl_1.3.1     lifecycle_0.2.0 
+[21] munsell_0.5.0    gtable_0.3.0     cellranger_1.1.0 rvest_0.3.6     
+[25] evaluate_0.14    labeling_0.3     knitr_1.29       httpuv_1.5.4    
+[29] fansi_0.4.1      broom_0.7.0      Rcpp_1.0.5       promises_1.1.1  
+[33] backports_1.1.10 scales_1.1.1     jsonlite_1.7.1   farver_2.0.3    
+[37] fs_1.5.0         hms_0.5.3        digest_0.6.25    stringi_1.4.6   
+[41] rprojroot_1.3-2  grid_3.6.3       cli_2.0.2        tools_3.6.3     
+[45] magrittr_1.5     crayon_1.3.4     whisker_0.4      pkgconfig_2.0.3 
+[49] ellipsis_0.3.1   xml2_1.3.2       reprex_0.3.0     assertthat_0.2.1
+[53] rmarkdown_2.3    httr_1.4.2       rstudioapi_0.11  R6_2.4.1        
+[57] git2r_0.27.1     compiler_3.6.3  </code></pre>
+</div>
+</div>
+</div>
+
+
+<!-- Adjust MathJax settings so that all math formulae are shown using
+TeX fonts only; see
+http://docs.mathjax.org/en/latest/configuration.html.  This will make
+the presentation more consistent at the cost of the webpage sometimes
+taking slightly longer to load. Note that this only works because the
+footer is added to webpages before the MathJax javascript. -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
