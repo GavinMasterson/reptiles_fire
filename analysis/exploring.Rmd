@@ -152,7 +152,8 @@ One other question we might ask is whether or not the number of non-singleton da
 sitephaseday_summary %>% 
   filter(count_per_day > 1) %>% 
   group_by(species,phase) %>% 
-  summarise(count_of_non_singleton_days = n(), .groups = "drop") %>% 
+  summarise(count_of_non_singleton_days = n(), 
+            .groups = "drop") %>% 
   arrange(desc(count_of_non_singleton_days))
 ```
 
