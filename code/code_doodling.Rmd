@@ -1,0 +1,37 @@
+---
+title: "Things to consider adding"
+author: "Gavin Masterson"
+date: "08/11/2020"
+output: html_document
+---
+
+#### Does this matter? 
+
+(It is important to highlight that the number shown above indicates how many times non-singletons occurred at a single trap array, even if they occurred on the same date.)
+To see how many unique days I captured more than a singleton of each of these species, we need to group by date as shown below.
+
+```{r}
+sitephase_summary %>% 
+  filter(count_per_day > 1) %>% 
+  group_by(species, date) %>% 
+  summarise(count_per_day = n(), .groups = "drop_last") %>% 
+  summarise(count_of_non_singleton_days = n(), .groups = "drop") %>% 
+  arrange(desc(count_of_non_singleton_days))
+```
+
+This would only be relevant for models which group all the detection data for species by day and ignore site-specific detections.
+
+
+```{r}
+(sitephaseday_summary <- data %>%
+  count(trap_site, 
+        species,
+        phase, 
+        date,
+        name = "count_per_day") %>%
+  filter(count_per_day > 1) %>% 
+  group_by(species) %>% 
+  summarise(count_of_non_singleton_days = n(),
+         max_captures = max(count_per_day)) %>% 
+  arrange(desc(count_of_non_singleton_days)))
+```

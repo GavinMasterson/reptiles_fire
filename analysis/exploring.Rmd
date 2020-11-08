@@ -7,29 +7,36 @@ editor_options:
   chunk_output_type: console
 ---
 
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      message = FALSE,
+                      warning = FALSE)
+```
+
 ## **Introduction**
 
-The raw data from my survey have been captured, cleaned and are now ready to be viewed for different insights.
-As the survey was quite complex from a methodological and practical perspective, I will now produce summaries and visualisations of the relevant survey components and variables.
-These will help me in determining any issues that may influence my desired analysis path.
-Keeping with best practice, we first load the required `R` packages and the `data` we will use for all of exploratory analysis.
+The raw data from my survey have been captured, cleaned and are now ready for exploratory analysis.
+As the survey was quite complex from a methodological and practical perspective, I will produce summaries and visualisations of the relevant survey components and variables.
+These summaries will help me in identifying any issues that may influence my desired analysis path.
+Keeping with best practice, we first load the required `R` packages and the `data` we will use for the exploratory analysis.
 
 ```{r setup, message = FALSE, echo = TRUE}
 library(tidyverse)
 library(lubridate)
 library(here)
 
-data <- read_csv(here("/data/clean_data.csv")) %>% 
-           mutate(date = as_date(date),
-                  arm = as_factor(arm),
-                  block = as_factor(block),
-                  phase = factor(phase, levels = c("pre-treatment", "post-treatment")))
+data <- read_csv(here("/data/clean_data.csv")) %>%
+    mutate_if(is.character, as.factor) %>%
+    mutate(date = as_date(date),
+           arm = as_factor(arm),
+           block = as_factor(block),
+           phase = factor(phase, levels = c("pre-treatment", "post-treatment")))
 ```
 
 #### **The total number of species detected during the survey**
 
 Suikerbosrand Nature Reserve has been surveyed for reptiles several times since its proclamation in 1973 e.g. Jacobsen *et al.* (1986) and Masterson *et al.* (2008).
-From these surveys, we know that there are roughly 40 species of reptile that have ever been recorded in Suikerbosrand Nature Reserve during its history.
+From these surveys, we know that there are approximately 40 species of reptile that have ever been recorded in or near Suikerbosrand Nature Reserve since 1973.
 Determining the total number of species detected during this survey is an important first step in gauging the general success of the survey. 
 
 ```{r total species}
@@ -69,15 +76,15 @@ data %>%
     scale_fill_discrete(na.translate=FALSE)
 ```
 
-#### **The total number of detections per species**
+#### **The total number of detections for each species in each phase**
 
 ```{r captures per species}
 data %>%
   drop_na(species) %>% 
-  group_by(species, phase) %>% 
-  summarise(total_captures = n(),
-            .groups = "drop_last") %>% 
-  arrange(species) %>% 
+  count(species, 
+        phase,
+        .drop = FALSE,
+        name = "total_captures") %>%  
   ggplot(., mapping = aes(x = species,
                           y = total_captures)) +
     geom_col(aes(fill = phase),
@@ -88,12 +95,29 @@ data %>%
     labs(fill = "Phase")
 ```
 
-#### **The total number of species detected at each site**
+#### **The total captures of each species detected at each trap site**
 
-```{r species per site}
-sitephase_summary <- data %>%
-  group_by(trap_site, species, phase) %>%
-  summarise(count_per_trap_site = n())
+```{r species captures per site}
+sitephase_summary <- data %>% 
+  drop_na(species) %>% 
+  count(trap_site,
+        species,
+        phase,
+        .drop = FALSE,
+        name = "captures")
+
+sitephase_summary %>% 
+  ggplot(mapping = aes(x = species,
+                       y = captures)) +
+  geom_col(aes(fill = phase),
+             position = "stack") +
+    xlab("Species") +
+    guides(x = guide_axis(angle = 90)) +
+    ylab("Total captures") +
+    labs(fill = "Phase") +
+    facet_wrap("trap_site",
+               nrow = 4,
+               scale = "free_y")
 ```
 
 #### **Species captures per site per day**
@@ -103,24 +127,29 @@ Reptiles do not have to be active every day like mammals, which means that there
 As a result, I expected to catch just a single individual per trap array per day of checking.
 
 ```{r}
-# create pivot table of species per day, per trap array and phase
-sitephase_summary <- data %>%
-  group_by(trap_site, species, phase, date) %>%
-  summarise(count_per_day = n(), .groups = "drop")
+sitephaseday_summary <- data %>%
+  count(trap_site, 
+        species,
+        phase, 
+        date,
+        name = "count_per_day")
 
-sitephase_summary %>% 
+sitephaseday_summary %>%
   filter(count_per_day > 1) %>% 
   group_by(species) %>% 
-  summarise(count_of_non_singleton_days = n(), .groups = "drop") %>% 
+  summarise(count_of_non_singleton_days = n(),
+         max_captures = max(count_per_day)) %>% 
   arrange(desc(count_of_non_singleton_days))
+
 ```
 
 This summary shows me the seven species which did not match my expectation, in descending order of non-singleton days.
 The first five are the common lizard species in Suikerbosrand Nature Reserve, and the last two are snake species.
+
 One other question we might ask is whether or not the number of non-singleton days was different between the pre-treatment and post-treatment phases of the project. 
 
 ```{r non-singleton days per phase}
-sitephase_summary %>% 
+sitephaseday_summary %>% 
   filter(count_per_day > 1) %>% 
   group_by(species,phase) %>% 
   summarise(count_of_non_singleton_days = n(), .groups = "drop") %>% 
@@ -133,7 +162,7 @@ Of these three species, only *A. a. distanti* is deserving of further considerat
 Knowing that the species was infrequently captured during the survey - with zero captures in the post-treatment phase of the project - it is important to consider how much data could be lost if we reduce these non-singleton days to singletons for use in an 'any detection per day' formulation of our hierarchical model.
 
 ```{r}
-sitephase_summary %>% 
+sitephaseday_summary %>% 
   filter(species == "Agama aculeata distanti") %>% 
   ggplot(., mapping = aes(x = date,
                           y = count_per_day)) +
@@ -143,36 +172,7 @@ sitephase_summary %>%
     guides(x = guide_axis(angle = 90)) +
     ylab("Total captures") +
     labs(fill = "Trap site")
-    
-
 ```
 
 This shows that I captured three individuals at `D1` on both of the non-singleton days, which were only two days apart in October 2005.
 This means that six detections of *A. a. distanti* would be reduced to two detections using a 'detection per site per day' approach, and reduce the total number of detections from 25 to 21 - a 16 percent reduction.
-
-
-
-
-
-
-
-
-
-
-
-#### Does this matter? 
-
-(It is important to highlight that the number shown above indicates how many times non-singletons occurred at a single trap array, even if they occurred on the same date.)
-To see how many unique days I captured more than a singleton of each of these species, we need to group by date as shown below.
-
-```{r}
-sitephase_summary %>% 
-  filter(count_per_day > 1) %>% 
-  group_by(species, date) %>% 
-  summarise(count_per_day = n(), .groups = "drop_last") %>% 
-  summarise(count_of_non_singleton_days = n(), .groups = "drop") %>% 
-  arrange(desc(count_of_non_singleton_days))
-```
-
-This would only be relevant for models which group all the detection data for species by day and ignore site-specific detections.
-

@@ -43,9 +43,11 @@ trapsite_data <- clean_data %>%
   select(trap_site,
          block,
          lat,
-         long) %>%
+         long,
+         phase,
+         treatment) %>%
   distinct() %>%
-  drop_na() %>%
+  drop_na(trap_site) %>%
   arrange(block) %>%
   write_csv(here("/data/trapsite_data.csv"))
 
